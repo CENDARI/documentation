@@ -1,0 +1,7 @@
+Authentication
+==============
+
+.. todo::
+
+   Shibboleth
+
