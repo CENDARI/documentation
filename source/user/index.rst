@@ -7,6 +7,7 @@ This section contains a collection of guides and HowTos.
    :maxdepth: 1
 
    collecting_documents_notes
+   searching
    collaboration
    licensing
    entity_management
