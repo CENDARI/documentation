@@ -6,7 +6,7 @@ CENDARI consists of several components.
 The following applications are visible to the end user.
 
 * Notes VRE
-* XMLFacets Search Interface
+* XMLFacets Search Interface, see :doc:`/user/searching`
 * Pundit Client Search Interface
 
 For power users, CENDARI provides the 
