@@ -9,8 +9,9 @@ The Search interface.
 
 When navigating to the CENDARI faceted search, the user will be presented with the main search interface.
 
-.. image:: /images/xmlfacets_start.png
+.. figure:: /images/xmlfacets_start.png
 
+   The Search interface.
 
 Using the facets
 ----------------
@@ -19,14 +20,14 @@ On the left of the screen, the user is presented with the available list of face
 Any active (not greyed out) facet can by opened by clicking the plus symbol.
 Then select the entry you want to choose.
 
-.. image:: /images/xmlfacets_facet_country_Bosnia_and_Herzegovina.png
+.. figure:: /images/xmlfacets_facet_country_Bosnia_and_Herzegovina.png
 
-The image show the results after selecting *Bosnia and Herzegovina* from the country facet.
+   The image show the results after selecting *Bosnia and Herzegovina* from the country facet.
 
 Click the reset button on the top of the facet panel to return to the start.
 
-Viewing an eag file.
---------------------
+Viewing a file.
+---------------
 
 Selecting a search result takes you to the corresponding entry.
 
@@ -35,4 +36,6 @@ Selecting a search result takes you to the corresponding entry.
    The EAD file for *The Gdansk Library of the Polish Academy of Sciences*.
 
 
+.. index::
+   single: facet
 

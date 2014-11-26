@@ -8,9 +8,14 @@ CENDARI documentation!
 
 Welcome to the technical documentation of CENDARI.
 
-Contents:
+.. note::
+   These docs are maintained by the CENDARI project team. They are a work
+   in progress and extended during the project's life.
+
 
 .. toctree::
+   :hidden:
+   :includehidden:
    :maxdepth: 2
 
    intro/index
@@ -18,15 +23,10 @@ Contents:
    admin/index
    developer/index
 
-.. note::
 
-   These docs are maintained by the CENDARI project team. They are a work
-   in progress and extended during the project's life.
-   
 
-Indices and tables
-==================
+.. Indices and tables
+.. """"""""""""""""""
 
-* :ref:`genindex`
-* :ref:`search`
+.. * :ref:`genindex`
 
