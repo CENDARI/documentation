@@ -7,6 +7,6 @@ This section describes how the components are set up and connected.
    :hidden:
    :maxdepth: 1
 
-   installation
-   authentication
+   admin/installation
+   admin/authentication
 

@@ -25,10 +25,10 @@ Welcome to the technical documentation of CENDARI.
    :includehidden:
    :maxdepth: 2
 
-   intro/index
-   user/index
-   admin/index
-   developer/index
+   intro
+   user
+   admin
+   developer
 
 
 

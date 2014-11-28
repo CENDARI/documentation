@@ -7,6 +7,6 @@ Learn about CENDARI and what it can do.
    :hidden:
    :maxdepth: 1
 
-   overview
-   components
+   intro/overview
+   intro/components
 
