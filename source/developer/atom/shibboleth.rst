@@ -15,18 +15,18 @@ User rights are mapped based on a configuration file.
    Plugin Configuration
    ^^^^^^^^^^^^^^^^^^^^
 
-   .. include:: sfDariahShibUserPluginConfiguration.inc
+   .. include:: sfDariahShibUserPluginConfiguration.import
 
 
    Extending the login page
    ^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. include:: loginAction.inc
+   .. include:: loginAction.import
 
 
    Performing login and account creation
    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. include:: sfDariahShibUser.inc
+   .. include:: sfDariahShibUser.import
 
 
