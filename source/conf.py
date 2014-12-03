@@ -30,6 +30,8 @@ import os
 # ones.
 extensions = [
     'sphinx.ext.todo',
+    'sphinx.ext.ifconfig',
+    'sphinxcontrib.phpdomain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,9 +55,9 @@ copyright = u'2014, CENDARI Project'
 # built documents.
 #
 # DEFINE FULL VERSION AND RELEASE
-version = '0.0.3'
-get_jenkins_release = os.environ.get('CENDARI_RELEASE', None)
-if get_jenkins_release != None:
+version = '0.0.4'
+get_cendari_release = os.environ.get('CENDARI_RELEASE', None)
+if get_cendari_release != None:
     release = os.environ.get('CENDARI_RELEASE')
 else:
     release = version
@@ -339,4 +341,12 @@ epub_exclude_files = ['search.html']
 # -- Other Options ----------------------------------------------
 
 todo_include_todos = True
+
+def setup(app):
+    app.add_config_value('include_submodule_docs', '', True)
+
+include_submodule_docs = False
+get_cendari_include_submodule_docs = os.environ.get('CENDARI_INCLUDE_SUBMODULE_DOCS', None)
+if get_cendari_include_submodule_docs != None:
+    include_submodule_docs = True
 

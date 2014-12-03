@@ -1,2 +1,5 @@
 build
+source/developer/atom/loginAction.inc
+source/developer/atom/sfDariahShibUser.inc
+source/developer/atom/sfDariahShibUserPluginConfiguration.inc
 

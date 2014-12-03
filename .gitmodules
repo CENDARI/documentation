@@ -1,0 +1,3 @@
+[submodule "submodules/sfDariahShibUserPlugin"]
+	path = submodules/sfDariahShibUserPlugin
+	url = https://github.com/CENDARI/sfDariahShibUserPlugin.git

@@ -8,4 +8,5 @@ It is automatically generated from the component's source.
    :hidden:
    :maxdepth: 1
 
+   developer/atom.rst
 
