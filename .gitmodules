@@ -1,3 +1,6 @@
 [submodule "submodules/sfDariahShibUserPlugin"]
 	path = submodules/sfDariahShibUserPlugin
 	url = https://github.com/CENDARI/sfDariahShibUserPlugin.git
+[submodule "submodules/ckanext-dariahshibboleth"]
+	path = submodules/ckanext-dariahshibboleth
+	url = https://github.com/CENDARI/ckanext-dariahshibboleth.git

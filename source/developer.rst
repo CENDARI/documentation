@@ -9,4 +9,5 @@ It is automatically generated from the component's source.
    :maxdepth: 1
 
    developer/atom.rst
+   developer/ckan.rst
 
