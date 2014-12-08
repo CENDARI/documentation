@@ -19,7 +19,7 @@ Using the facets
 ----------------
 
 On the left of the screen, the user is presented with the available list of facets.
-Any active (not greyed out) facet can by opened by clicking the plus symbol, see :ref:`Figure <figure-search-facet>`.
+Any active (not greyed out) facet can be opened by clicking the plus symbol, see :ref:`Figure <figure-search-facet>`.
 Then select the entry you want to choose.
 
 .. _figure-search-facet:
