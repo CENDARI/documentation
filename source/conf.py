@@ -33,7 +33,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.autodoc',
     'sphinxcontrib.phpdomain',
-    'sphinx_http_domain',
+    'sphinxcontrib.httpdomain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

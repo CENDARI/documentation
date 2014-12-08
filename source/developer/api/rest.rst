@@ -1,36 +1,106 @@
 CENDARI REST API
 ================
 
+.. see http://pythonhosted.org//sphinxcontrib-httpdomain/
+
 The API works as follow:
 
 
-GET URIs
---------
+Session
+-------
 
-.. http:method:: GET ${ROOT_NS}/dataspaces/{id}
+.. http:post:: ${ROOT_NS}/session
+
+   :<json string eppn: ePPN
+   :<json string mail: Mail
+   :<json string cn: CommonName
+
+   :>json sessionKey: the user's session key
+
+Dataspace
+---------
+
+GET URIs
+^^^^^^^^
+
+.. http:get:: ${ROOT_NS}/dataspaces/{id}
 
    :arg integer id: A dataspace id.
+   :reqheader Authorization: optional session key for authenticated access
 
    Information about the specified dataspace.
 
 
 POST URIs
----------
+^^^^^^^^^
 
-.. http:method:: POST ${ROOT_NS}/dataspaces
+Create a dataspace
+""""""""""""""""""
 
-   :param string name:  a string between 2 and 100 characters long, containing only lowercase alphanumeric characters, - and _
-   :param string title: optional
-   :param string description: optional
-   :response 201: A dataspace was created successfully.
-   :response 400:
+.. http:post:: ${ROOT_NS}/dataspaces
+
+   :<json string name: a string between 2 and 100 characters long, containing only lowercase alphanumeric characters, `-` and `_`
+   :<json string title: optional
+   :<json string descriptio: optional
+   :statuscode 200: no error
+   :statuscode 404: no such object
+   :reqheader Authorization: required session key for authenticated access
 
    Create a dataspace.
+
+Create a resource in dataspace
+""""""""""""""""""""""""""""""
+
+.. http:post:: ${ROOT_NS}/dataspaces/${DATASPACE_ID}/resources
+
+   :form file: file for upload
+   :form name: optional
+   :form format: optional
+   :form description: optional
+   :form setId: optional (if not specified, a new set will be created and new resource will be assigned to it)
+
+
+PUT URIs
+^^^^^^^^
+
+Resource update
+"""""""""""""""
+
+.. http:put:: ${ROOT_NS}/dataspaces/${DATASPACE_ID}/resources/${RESOURCE_ID}
+
+    :form file: file for upload
+    :form name: optional
+    :form format: optional
+    :form description: optional
+
+Resource
+--------
+
+
+GET URIs
+^^^^^^^^
+
+.. http:get:: ${ROOT_NS}/resources/${ID}[.format] 
+   
+   :param format: json and html are supported
+
+   returns metadata for the resource
+
+.. http:get:: ${ROOT_NS}/resources/${ID}/data 
+
+   binary data of the object with the specified id
+
+.. http:get:: ${ROOT_NS}/resources/${ID}/rdf
+
+   extracted RDF data from the specified resource, N3 format
+
+.. http:get:: ${ROOT_NS}/resources/${ID}/rdf/xml
+
+   extracted RDF data from the specified resource, XML format
 
 Result
 ------
 
-.. http:response:: Dataspace object
 
    A typical resource looks like this::
 
