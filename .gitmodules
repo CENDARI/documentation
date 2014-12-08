@@ -1,6 +1,8 @@
 [submodule "submodules/sfDariahShibUserPlugin"]
 	path = submodules/sfDariahShibUserPlugin
 	url = https://github.com/CENDARI/sfDariahShibUserPlugin.git
+	branch = master
 [submodule "submodules/ckanext-dariahshibboleth"]
 	path = submodules/ckanext-dariahshibboleth
 	url = https://github.com/CENDARI/ckanext-dariahshibboleth.git
+	branch = master
