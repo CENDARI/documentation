@@ -8,6 +8,7 @@ It is automatically generated from the component's source.
    :hidden:
    :maxdepth: 1
 
+   developer/api.rst
    developer/atom.rst
    developer/ckan.rst
 

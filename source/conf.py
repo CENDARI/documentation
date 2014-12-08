@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.autodoc',
     'sphinxcontrib.phpdomain',
+    'sphinx_http_domain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -350,6 +351,5 @@ include_submodule_docs = False
 get_cendari_include_submodule_docs = os.environ.get('CENDARI_INCLUDE_SUBMODULE_DOCS', None)
 if get_cendari_include_submodule_docs != None:
     include_submodule_docs = True
-    sys.path.insert(0, os.path.abspath('../submodules/ckan'))
     sys.path.insert(0, os.path.abspath('../submodules/ckanext-dariahshibboleth/ckanext'))
 
