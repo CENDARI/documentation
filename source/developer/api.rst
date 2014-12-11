@@ -7,12 +7,12 @@ The CENDARI Data API handles all data exchange between CENDARI services.
    :hidden:
    :maxdepth: 1
 
-   api/rest
+   litef-conductor/docs/rest
 
 
 REST Documentation
 ------------------
 
-The REST API is fully :doc:`documented <api/rest>`.
+The REST API is fully :doc:`documented <litef-conductor/docs/rest>`.
 
 
