@@ -8,5 +8,5 @@
 	branch = master
 [submodule "source/developer/litef-conductor"]
 	path = source/developer/litef-conductor
-	url = https://github.com/ivan-cukic/litef-conductor.git
+	url = https://github.com/CENDARI/litef-conductor.git
 	branch = master
