@@ -2,7 +2,7 @@ AtoM plugin: sfDariahShibUserPlugin
 ===================================
 
 This plugin is used to enable Shibboleth Authentication in AtoM.
-The code is available on `GitHub <https://github.com/CENDARI/documentation>`_.
+The code is available on `GitHub <https://github.com/CENDARI/sfDariahShibUserPlugin>`_.
 
 About the plugin
 ----------------
