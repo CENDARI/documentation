@@ -8,7 +8,7 @@ It is automatically generated from the component's source.
    :hidden:
    :maxdepth: 1
 
-   developer/api.rst
+   developer/litef-conductor/docs/rest
    developer/atom.rst
    developer/ckan.rst
 
