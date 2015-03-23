@@ -56,6 +56,14 @@ Litef Conductor
 
 The Litef Conductor can be built and installed from its source on `github <https://github.com/ivan-cukic/litef-conductor>`_.
 
+Litef requires a dedicated CKAN sysadmin, thus after installing CKAN create that sysadmin:
+
+  . /var/www/ckan/bin/activate
+  cd /var/www/ckan/src/ckan
+  paster sysadmin add litef -c /etc/ckan/production.ini
+
+Add the new sysadmin's API key to ``/etc/litef/application.conf``.
+
 Data API
 ^^^^^^^^
 
