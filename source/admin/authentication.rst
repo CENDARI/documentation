@@ -23,7 +23,7 @@ Attribute      Contents
 ``givenName``  the user's first name
 ``sn``         the user's last name
 ``cn``         the user's full name
-``mail``       the user's email address
+``mail``       comma seperated list of the user's email addresses
 ``isMemberOf`` comma seperated list of the user's DARIAH groups
 ============== ========
 
