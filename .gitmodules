@@ -10,3 +10,8 @@
 	path = source/developer/litef-conductor
 	url = https://github.com/CENDARI/litef-conductor.git
 	branch = master
+[submodule "submodules/ckanext-cendari"]
+	path = submodules/ckanext-cendari
+	url = https://github.com/CENDARI/ckanext-cendari.git
+  branch = master
+

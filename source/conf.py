@@ -58,7 +58,7 @@ copyright = u'2015, CENDARI Project'
 # built documents.
 #
 # DEFINE FULL VERSION AND RELEASE
-version = '0.0.6'
+version = '0.0.7'
 get_cendari_release = os.environ.get('CENDARI_RELEASE', None)
 if get_cendari_release != None:
     release = os.environ.get('CENDARI_RELEASE')
@@ -353,4 +353,5 @@ get_cendari_include_submodule_docs = os.environ.get('CENDARI_INCLUDE_SUBMODULE_D
 if get_cendari_include_submodule_docs != None:
     include_submodule_docs = True
     sys.path.insert(0, os.path.abspath('../submodules/ckanext-dariahshibboleth/ckanext'))
+    sys.path.insert(0, os.path.abspath('../submodules/ckanext-cendari/ckanext'))
 
