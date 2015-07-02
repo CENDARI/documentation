@@ -58,7 +58,7 @@ copyright = u'2015, CENDARI Project'
 # built documents.
 #
 # DEFINE FULL VERSION AND RELEASE
-version = '0.0.7'
+version = '0.0.8'
 get_cendari_release = os.environ.get('CENDARI_RELEASE', None)
 if get_cendari_release != None:
     release = os.environ.get('CENDARI_RELEASE')
