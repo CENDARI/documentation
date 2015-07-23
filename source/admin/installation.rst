@@ -21,9 +21,7 @@ The infrastructure set up by UGOE splits Back Office and Front Office into two s
 The two setups provide a staging enviroment to facilitate components integration and a production environment.
 The duplication allows developers to immediately test the latest versions without impacting the production servers.
 
-CENDARI uses Ubuntu 14.04 on virtualized x86_64 servers. No other distributions have been tested.
-Shared amond the servers are 2.5 TB storage space for the contents of the CENDARI repository.
-This allows files to be accessed as local file resources from both the Front Office and Back Office servers.
+CENDARI uses Ubuntu 14.04 on virtualized x86_64 servers. The components have not been tested on other distributions.
 
 
 Database and Search Indexers
@@ -32,7 +30,8 @@ Database and Search Indexers
 As indicated by the model, individual PostgreSQL databases are used for data storage by both the Notes VRE and the CKAN repository application.
 Furthermore, AtoM uses MySQL.
 An elasticsearch cluster is set up between the servers within each environment.
-Applications can therefore always query elasticsearch locally.
+
+Applications can therefore always access databases and query elasticsearch locally on standard ports.
 
 Back Office
 -----------
@@ -54,7 +53,7 @@ The following plugins are required:
 Litef Conductor
 ^^^^^^^^^^^^^^^
 
-The Litef Conductor can be built and installed from its source on `github <https://github.com/ivan-cukic/litef-conductor>`_.
+The Litef Conductor can be built and installed from its source in the `litef-conductor repository <https://github.com/CENDARI/litef-conductor>`_ on GitHub.
 
 Litef requires a dedicated CKAN sysadmin, thus after installing CKAN create that sysadmin::
 
@@ -76,8 +75,12 @@ it is recommended to prepend options ``from="1.2.3.4",no-pty,no-X11-forwarding``
 AtoM
 ^^^^
 
-* Follow the instructions to `install AtoM <https://www.accesstomemory.org/en/docs/2.1/admin-manual/installation/linux/>`_ itself.
-* To enable Shibboleth authentication, install the `sfDariahShibUserPlugin <https://github.com/CENDARI/sfDariahShibUserPlugin>`_, see also :doc:`/developer/atom/shibboleth`.
+* Follow the instructions to `install AtoM <https://www.accesstomemory.org/en/docs/2.1/admin-manual/installation/linux/>`_ from CENDARI's `AtoM fork` on GitHub.
+* The fork includes the the following addtional components as git submodules:
+
+  * :doc:`Shibboleth authentication plugin </developer/atom/shibboleth>`
+  * the :doc:`AtoM2CKAN sync </developer/atom/ckansync>` scripts
+
 
 Front Office
 ------------
@@ -85,12 +88,8 @@ Front Office
 Notes VRE
 ^^^^^^^^^
 
-Follow the instructions provided on `github <https://github.com/CENDARI/editorsnotes>`_.
+Follow the instructions provided with the `editorsnotes repository <https://github.com/CENDARI/editorsnotes>`_ on GitHub.
 
-XMLFacets
-^^^^^^^^^
-
-Follow the instructions provided on `github <https://github.com/CENDARI/xmlfacets>`_.
 
 Data API endpoint
 ^^^^^^^^^^^^^^^^^
