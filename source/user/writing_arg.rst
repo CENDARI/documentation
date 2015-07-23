@@ -2,7 +2,7 @@ Working with the NTE
 ==============
 
 
-.. image:: .\images\TUG_01.png
+.. image:: ./images/TUG_01.png
 
 
 **Create a Note**
@@ -84,7 +84,7 @@ In the Read mode the link will work. You can do the same
 vice versa so that the readers will be taken back to the
 point in the text from the reference.
 
-.. image:: .\images\TUG_02.png
+.. image:: ./images/TUG_02.png
 
 
 **Tagging of entities**
@@ -136,7 +136,7 @@ shown, and you see these documents by clicking on the
 tabs in the middle of your working space (*Related notes*,
 *Related documents*, *Related entities*).
 
-.. image:: .\images\TUG_03.png
+.. image:: ./images/TUG_03.png
 
 
 **HTML**
