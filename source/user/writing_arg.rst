@@ -34,7 +34,7 @@ following table of contents:
 
 **Creating a table**
 
-Go to the point in the text where you plan t to insert a
+Go to the point in the text where you plan to insert a
 table. Click on the :menuselection:`Insert --> Edit Table` button (second row,
 far left of the editor). This will bring up a pop-up menu in
 which you can select how many rows and columns are
