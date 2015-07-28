@@ -37,18 +37,20 @@ Disclaimer
 ------------
 
 **Archival institutions** have been chosen for description according to the following criteria, according to CENDARIs case studies:
-World War I
-a) to have all countries which have participated in the First World War covered,
-b) to give special attention to East European and South East European countries and to describe so-called 'hidden archives' which did not
-dispose of a digital representation so far.
-c) to describe archival institutions with significant holdings with priority to central national archives, national military archives, national war
-museums etc.
-d) archives with a wide scope of digitized finding aids.
-Medieval Culture
-a) to cover most Western countries, including USA and Australia,
-b) to give special attention to East European and South East European countries,
-c) to cover collections of interest for the scientific community according to their relevance in the academic bibliography,
-d) to cover archival institutions with an advanced digitization level.
+
+**World War I**
+
+* to have all countries which have participated in the First World War covered
+* to give special attention to East European and South East European countries and to describe so-called 'hidden archives' which did not dispose of a digital representation so far
+* to describe archival institutions with significant holdings with priority to central national archives, national military archives, national war museums
+* archives with a wide scope of digitized finding aids
+
+**Medieval Culture**
+
+* to cover most Western countries, including USA and Australia
+* to give special attention to East European and South East European countries
+* to cover collections of interest for the scientific community according to their relevance in the academic bibliography
+* to cover archival institutions with an advanced digitization level
 
 **Descriptions of archival holdings:**
 Please bear in mind that the archival holdings described in the CENDARI Archival Directory cannot be seen as being exhaustive, even if
@@ -89,7 +91,7 @@ the search box.
 Currently, it is foreseen to provide a browse by period function; it will be enabled only later. The reason why it is not yet there is simply that
 the majority of archival holdings described have been produced in the same period, i.e. 1914-1918.
 
-**Why do labels provided in the :menuselection:`Subjects` and :menuselection:`Places` categories not correspond to all the archival holdings available?**
+**Why do labels provided in the **Subjects** and **Places** categories not correspond to all the archival holdings available?**
 
 All the entries have been produced manually. Therefore it depended on the decision of the describing person to add subjects and places
 labels where she or he decided this to be appropriate. Therefore, the categories :menuselection:`Subjects` and :menuselection:`Places` correspond not to archival
