@@ -105,7 +105,7 @@ offering different options (for example :menuselection:`son of`).
 
 **Resolving of entities**
 
-If you want your entities to be right-click the entity with
+If you want your entities to be tagged right-click the entity with
 your mouse and choose from the context menu the
 appropriate entity, as mentioned above. Then :menuselection:`Save`. To
 resolve it, you can either click on the tab :menuselection:`Entities` in your
@@ -124,8 +124,7 @@ The resolved entity will then be shown on a map to your
 right.
 If the desired entity is a complex entity (for example a
 transcribed name), the easiest solution is to go to the
-corresponding Wikipedia page
-(such as http://en.wikipedia.org/wiki/Leon_Trotsky),
+corresponding `Wikipedia page <http://en.wikipedia.org/wiki/Leon_Trotsky>`_
 choose the correct entry and then copy and paste the link
 into the field :menuselection:`Resolve` in the NTE.
 Afterwards replace the beginning of the link :menuselection:`http://
