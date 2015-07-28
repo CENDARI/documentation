@@ -63,13 +63,13 @@ Frequently Asked Questions
 ----------------------------
 **Are users allowed to add descriptions and what kind of descriptions are users being allowed to add?**
 
-Users which are not logged in ("reseachers") have view-only access to the CENDARI Archival Directory. Users are allowed to add archival
+Users which are not logged in (reseachers) have :menuselection:`view-only` access to the CENDARI Archival Directory. Users are allowed to add archival
 descriptions once they have received a DARIAH-account, are authenticated and have been granted contributor's rights, i.e. to read, create,
 edit archival descriptions. Users with contributor's rights are not allowed to delete anything or to create archival institutions. Archival
 descriptions can be added according to the needs of these users while observing the standards of the International Council on Archives. If
 users want to have their archival descriptions being published and thus freely accessible for everybody, they should ask a user with editor
-rights (usually their mentor) to check for the quality of the descriptions and afterwards change the status of the archival description from 'draft'
-to 'published'. If users want archival institutions to be created, they should ask their mentor.
+rights (usually their mentor) to check for the quality of the descriptions and afterwards change the status of the archival description from :menuselection:`draft`
+to :menuselection:`published`. If users want archival institutions to be created, they should ask their mentor.
 
 **What kind of agreements does CENDARI have with Archives and Libraries regarding the sharing of records?**
 
@@ -89,16 +89,16 @@ the search box.
 Currently, it is foreseen to provide a browse by period function; it will be enabled only later. The reason why it is not yet there is simply that
 the majority of archival holdings described have been produced in the same period, i.e. 1914-1918.
 
-**Why do labels provided in the "Subjects" and "Places" categories not correspond to all the archival holdings available?**
+**Why do labels provided in the :menuselection:`Subjects` and :menuselection:`Places` categories not correspond to all the archival holdings available?**
 
 All the entries have been produced manually. Therefore it depended on the decision of the describing person to add subjects and places
-labels where she or he decided this to be appropriate. Therefore, the categories “Subjects” and “Places” correspond not to archival
+labels where she or he decided this to be appropriate. Therefore, the categories :menuselection:`Subjects` and :menuselection:`Places` correspond not to archival
 description, only to a part of the descriptions produced by the MM teams and WW1 historians. In many cases these categories are not filled
 at all. If users think these descriptions would be helpful, they can fill in these fields by themselves, where appropriate. This can be done by
-entering an archival description after having logged in, click on "edit" at the foot of the page, click on "Access points", start writing the
+entering an archival description after having logged in, click on :menuselection:`edit` at the foot of the page, click on :menuselection:`Access points`, start writing the
 appropriate Subject or Place in the field given (note: you have to wait for some one or two seconds after having started typing since the
 subjects and places already available in the system show up), and after having chosen or typed manually the appropriate subject or place
-click on "Save" at the foot of the page.
+click on :menuselection:`Save` at the foot of the page.
 
 **Why is there no comprehensive search tree in a hierarchical order?**
 
@@ -106,7 +106,7 @@ Hierarchised searches need pre-fixed taxonomies, on which the possible users of 
 system like the one provided over here, such a pre-fixed taxonomy cannot be foreseen. Instead, CENDARI chose a more open approach
 where users are free to choose their subjects and places according to their needs without having them pre-ordered in a hierarchical tree.
 Users can even add subjects and places which have not yet added to the Archival Directory (compare here the FAQ "Why do labels provided
-in the "Subjects" and Places" categories ..." on how to do this).
+in the Subjects and Places categories ..." on how to do this).
 
 **Why is there no hierarchy in the archival descriptions according to the level of fonds, subfonds, items etc.?**
 

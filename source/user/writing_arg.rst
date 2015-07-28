@@ -5,7 +5,8 @@ Working with the NTE
 .. image:: ./images/TUG_01.png
 
 
-**Create a Note**
+Create a Note
+---------------
 
 To create a new note, click :menuselection:`New` in the Menu Bar and
 then :menuselection:`Note`. Write your file’s title into the field :menuselection:`Note's
@@ -14,7 +15,8 @@ title`. Write some content in the main body of the note
 without content cannot be saved). Click on :menuselection:`Save` (a green
 bar should appear), and you can continue working.
 
-**Creating a table of contents**
+Creating a table of contents
+-------------------------------------
 
 To structure your note, type the headings and elements of
 your note into the text. Then mark each heading one by
@@ -32,7 +34,8 @@ following table of contents:
 * Secondary sources
 * Additional sources
 
-**Creating a table**
+Creating a table
+----------------------
 
 Go to the point in the text where you plan to insert a
 table. Click on the :menuselection:`Insert --> Edit Table` button (second row,
@@ -50,7 +53,8 @@ this drop-down menu you can select the border in the line
 again and chose :menuselection:`Read mode` and all of the selected
 options will be displayed.
 
-**Inserting text**
+Inserting text
+----------------
 
 You can simply type text into the editor as in any word
 processing programme (using the buttons in the first row
@@ -67,7 +71,8 @@ can also insert links manually by selecting a section of
 text, and then clicking on the :menuselection:`chain` button in the editing
 menu (called :menuselection:`Insert --> Edit Link`).
 
-**Insert Footnotes/References**
+Insert Footnotes/References
+----------------------------------
 
 Go to the end of your text. If there is no reference section
 there, create it first by marking it as you did when creating
@@ -87,7 +92,8 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-**Tagging of entities**
+Tagging of entities
+----------------------------
 
 Highlight the entity you want to add to your resource.
 Then right-click with your mouse and choose from the
@@ -103,7 +109,8 @@ an explanatory description to your entity if you right-click
 with your mouse, as a drop-down menu will appear,
 offering different options (for example :menuselection:`son of`).
 
-**Resolving of entities**
+Resolving of entities
+------------------------------
 
 If you want your entities to be tagged right-click the entity with
 your mouse and choose from the context menu the
@@ -138,20 +145,23 @@ tabs in the middle of your working space (:menuselection:`Related notes`,
 .. image:: ./images/TUG_03.png
 
 
-**HTML**
+HTML
+---------
 
 If you have experience with editing in HTML Source Code,
 you can click on the :menuselection:`html` button in the first row of the
 editor. In the pop-up window you can edit code and save
 it with :menuselection:`Update`.
 
-**Reporting issues**
+Reporting issues
+----------------------
 
 If something does not work or if the system crashes, you
 can click on the button :menuselection:`Issue report` on the very top of
 the page.
 
-**Saving work**
+Saving work
+----------------
 
 Please save all of your work and log yourself out after
 finishing a session. It is a good idea to regularly save work
