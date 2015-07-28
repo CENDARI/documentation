@@ -14,5 +14,7 @@ This section contains a collection of guides and HowTos.
    user/entity_management
    user/using_resources
    user/writing_arg
+   user/atom
    user/publishing
+   
 
