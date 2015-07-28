@@ -41,7 +41,7 @@ Disclaimer
 **World War I**
 
 * to have all countries which have participated in the First World War covered
-* to give special attention to East European and South East European countries and to describe so-called 'hidden archives' which did not dispose of a digital representation so far
+* to give special attention to East European and South East European countries and to describe so-called :menuselection:`hidden archives` which did not dispose of a digital representation so far
 * to describe archival institutions with significant holdings with priority to central national archives, national military archives, national war museums
 * archives with a wide scope of digitized finding aids
 
@@ -76,7 +76,7 @@ to :menuselection:`published`. If users want archival institutions to be created
 **What kind of agreements does CENDARI have with Archives and Libraries regarding the sharing of records?**
 
 CENDARI does not have any specific agreements with Cultural Heritage Institutions. The Archival Directory AtoM will be open for Cultural
-Heritage Institutions as well as for users to add descriptions according to their needs while observing the standards of the International
+Heritage Institutions a	s well as for users to add descriptions according to their needs while observing the standards of the International
 Council on Archives. If users want to publish archival descriptions and the content of finding aids within CENDARIs Archival Directory, they
 should first talk to the archives whether or not they are allowed to do so.
 
@@ -91,7 +91,7 @@ the search box.
 Currently, it is foreseen to provide a browse by period function; it will be enabled only later. The reason why it is not yet there is simply that
 the majority of archival holdings described have been produced in the same period, i.e. 1914-1918.
 
-**Why do labels provided in the **Subjects** and **Places** categories not correspond to all the archival holdings available?**
+**Why do labels provided in the Subjects and Places categories not correspond to all the archival holdings available?**
 
 All the entries have been produced manually. Therefore it depended on the decision of the describing person to add subjects and places
 labels where she or he decided this to be appropriate. Therefore, the categories :menuselection:`Subjects` and :menuselection:`Places` correspond not to archival
