@@ -15,6 +15,7 @@ This section contains a collection of guides and HowTos.
    user/using_resources
    user/writing_arg
    user/atom
+   user/trame
    user/publishing
    
 
