@@ -5,6 +5,8 @@ TRAME
 
 The focus of TRAME is to foster the interactivity of repositories concerning digitized images of medieval manuscripts, their codicological descriptions, their textual and philological interest, their cultural significance in the context of the european history.
 
+To be continued.
+
 
 Search
 --------
