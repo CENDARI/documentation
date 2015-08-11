@@ -166,3 +166,8 @@ Saving work
 Please save all of your work and log yourself out after
 finishing a session. It is a good idea to regularly save work
 in the NTE.
+
+FAQs
+--------------
+Work in progress..
+
