@@ -168,7 +168,8 @@ finishing a session. It is a good idea to regularly save work
 in the NTE.
 
 Frequently Asked Questions
---------------
+------------------------------
+
 **How can I invite other persons to work on an ARG together?**
 
 **What happens with my feedback given via the issue report or the survey?**

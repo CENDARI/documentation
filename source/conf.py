@@ -77,7 +77,7 @@ else:
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['sphinx_rtd_theme']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -110,9 +110,10 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #html_theme = 'default'
 
-import sphinx_rtd_theme
+#sys.path.insert(0, os.path.abspath('sphinx_rtd_theme'))
+#import sphinx_rtd_theme
 #html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path(),'.']
+html_theme_path = [os.path.abspath('sphinx_rtd_theme'),'.']
 
 #html_theme_path = ['.']
 #html_theme = "sphinx_rtd_theme"
@@ -135,7 +136,7 @@ html_theme = "cendari_theme"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = '_static/cendari_logo.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
