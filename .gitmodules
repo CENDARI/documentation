@@ -14,7 +14,8 @@
 	path = submodules/ckanext-cendari
 	url = https://github.com/CENDARI/ckanext-cendari.git
   branch = master
-
 [submodule "source/sphinx_rtd_theme"]
 	path = source/sphinx_rtd_theme
 	url = https://github.com/CENDARI/sphinx_rtd_theme.git
+  branch = cendari
+
