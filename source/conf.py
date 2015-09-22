@@ -212,6 +212,7 @@ latex_elements = {
 
 'fontpkg': '\\usepackage{libertine}\\usepackage[scaled=0.83]{beramono}',
 'fncychap': '\\usepackage[Glenn]{fncychap}',
+'printindex': '',
 
 }
 
