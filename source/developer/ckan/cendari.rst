@@ -22,7 +22,7 @@ To use the feature, add a line to CKAN's configuration in the ``[app:main]`` sec
 
 To facilitate the Single-Sign-On experience, 
 the login page is usually protected on the webserver level and thus never seen by a user.
-The CKAN internal user management is diabled so that changes can not be made.
+The CKAN internal user management is disabled so that changes can not be made.
 
 
 .. toctree::
