@@ -34,3 +34,9 @@ For other languages, converters and extensions have to be installed.
 For converting PHPDoc to reStructuredText, [Dox PHP](https://github.com/avalanche123/doxphp) is used.
 
 The script `submodules-import.sh` converts converts PHPDoc to reStructuredText for inclusion.
+
+
+### License
+
+The documentation is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0) License](http://creativecommons.org/licenses/by/4.0/).
+

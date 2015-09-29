@@ -51,7 +51,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CENDARI'
-copyright = u'2015, CENDARI Project'
+copyright = u'2015 CENDARI Project'
+license = u'Creative Commons Attribution 4.0 International (CC BY 4.0) License'
+license_link = u'http://creativecommons.org/licenses/by/4.0/'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -198,7 +200,61 @@ html_domain_indices = False
 htmlhelp_basename = 'CENDARIdoc'
 
 
+html_theme_options = {
+    "show_license": 'true',
+    "license": license,
+    "license_link": license_link
+}
+
+
 # -- Options for LaTeX output ---------------------------------------------
+
+latex_maketitlecommand = r'''\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}%
+    \let\footnotesize\small
+    \let\footnoterule\relax
+    \rule{\textwidth}{1pt}%
+    \ifsphinxpdfoutput
+      \begingroup
+      % These \defs are required to deal with multi-line authors; it
+      % changes \\ to ', ' (comma-space), making it pass muster for
+      % generating document info in the PDF file.
+      \def\\{, }
+      \def\and{and }
+      \pdfinfo{
+        /Author (\@author)
+        /Title (\@title)
+      }
+      \endgroup
+    \fi
+    \begin{flushright}%
+      \sphinxlogo%
+      {\rm\Huge\py@HeaderFamily \@title \par}%
+      {\em\LARGE\py@HeaderFamily \py@release\releaseinfo \par}
+      \vfill
+      {\LARGE\py@HeaderFamily
+        \begin{tabular}[t]{c}
+          \@author
+        \end{tabular}
+        \par}
+      \vfill\vfill
+      {\large
+       \@date \par
+       \vfill
+       Licensed under \href{''' + license_link + '}{' + license + r'''}\par
+       \py@authoraddress \par
+      }%
+    \end{flushright}%\par
+    \@thanks
+  \end{titlepage}%
+  \cleardoublepage%
+  \setcounter{footnote}{0}%
+  \let\thanks\relax\let\maketitle\relax
+  %\gdef\@thanks{}\gdef\@author{}\gdef\@title{}
+}
+\makeatother
+'''
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -213,6 +269,8 @@ latex_elements = {
 'fontpkg': '\\usepackage{libertine}\\usepackage[scaled=0.83]{beramono}',
 'fncychap': '\\usepackage[Glenn]{fncychap}',
 'printindex': '',
+
+'preamble': latex_maketitlecommand,
 
 }
 
