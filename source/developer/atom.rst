@@ -1,10 +1,13 @@
-AtoM
+AtoM Extensions
 ===================
 
 AtoM (Access to Memory) is used within the CENDARI project for management of Archival descriptions.
 
 .. todo:: Add description of EAD and EAG
 
+The standard installation of AtoM is used in conjunction with a `CENDARI theme <https://github.com/CENDARI/sfCendariThemePlugin>`_.
+In addition CENDARI developed a Shibboleth authentication extension and a script to upload AtoM 
+archival descriptions in EAD and EAG to the CENDARI repository.
 
 Shibboleth Authentication
 -------------------------
@@ -28,7 +31,7 @@ Connection to the CKAN Repository
 
    atom/ckansync
 
-using the plugin :doc:`atom/ckansync` developed by CENDARI.
+A collection of scripts :doc:`atom/ckansync` have been developed by CENDARI.
 
 
 

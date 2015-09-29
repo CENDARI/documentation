@@ -3,6 +3,7 @@ Searching
 
 Faceted Search with CENDARI is provided by XMLFacets.
 
+.. warning:: This page is outdated! Search is now part of the NTE.
 
 The Search interface.
 ---------------------

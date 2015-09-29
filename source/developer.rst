@@ -2,10 +2,12 @@ Developer
 =========
 
 This section describes the actual implementation of the components.
-It is automatically generated from the component's source.
+As far as possible, inline source code documentation from the componentes source is used directly to compile the documentation.
+
+
+Documentation on the implementation of the following CENDARI components is available.
 
 .. toctree::
-   :hidden:
    :maxdepth: 1
 
    developer/litef-conductor/docs/rest

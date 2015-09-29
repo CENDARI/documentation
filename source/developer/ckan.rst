@@ -1,7 +1,12 @@
-CKAN
-====
+CKAN Modifications and Extension
+================================
 
 CKAN serves as central repository for all CENDARI content.
+It directly functions as the backend for the :doc:`/developer/litef-conductor/docs/rest`.
+Some modifications to the database have been made.
+
+.. todo:: Actually provide the specifications of the DB changes. 
+
 
 Shibboleth Authentication
 -------------------------
@@ -13,7 +18,7 @@ Shibboleth Authentication
    ckan/shibboleth
    ckan/cendari
 
-CKAN is integrated into the CENDARI authentication mechanism through
+The CKAN web interface is integrated into the CENDARI authentication mechanism through
 the CKAN plugin :doc:`ckan/cendari`.
-A pure Shibboleth plugin was also developed by CENDARI, nut is no longer in use: :doc:`ckan/shibboleth`.
+A pure Shibboleth plugin was also developed by CENDARI, but is no longer in use: :doc:`ckan/shibboleth`.
 

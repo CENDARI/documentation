@@ -6,7 +6,10 @@
 CENDARI documentation!
 ===================================
 
-Welcome to the technical documentation of CENDARI.
+This is the official documentation of CENDARI infrastructure.
+This includes user guides to various tools provided and example use cases as well as answers to frequently asked questions
+
+The documentation further includes the technical documentation of the different components and their respective installation instructions.
 
 
 .. only:: html
