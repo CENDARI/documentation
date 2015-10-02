@@ -9,12 +9,73 @@ The DARIAH AAI provides SAML [#SAML]_ authentication using the open source solut
 Shibboleth explained
 --------------------
 
-.. todo:: Basics of Shibboleth.
+
+Shibboleth authentication provides a procedure to deferr the actual login to a known third party.
+From the point of view of an application, the login process is deferred to the Shibboleth service provider, the SP, 
+which runs on the same server that hosts the application. 
+The SP in turn requests the user’s identity attributes from the DARIAH identity provider, the IdP.
+Upon receiving the user’s identity and authorisation attributes from the DARIAH IdP, 
+the SP provides the attributes to the application via the web- or application server in the form of headers or environment variables. 
+In the case of CENDARI, the application than sends the Shibboleth attributes to the CENDARI Data API, which returns the CENDARI internal session token and username, see below.
+
+From the user’s point of view, when trying to log into a CENDARI service, 
+he is redirected to the familiar DARIAH AAI login page, where he performs the authentication. 
+Upon successful completion, he will instantly be redirected back to the original website and automatically logged in there. 
+Apart from the URL changes, the whole process is entirely transparent to the user.
+
+Should the user not have a DARIAH Homeless account, he can directly apply for an account from the DARIAH login page. 
+If he does so using an institutional mail address, the account will be created automatically 
+and upon accepting the the terms of use for both DARIAH and CENDARI, the user will be able to use CENDARI services.
+
+A very extensive and in-depth explanation of Shibboleth and an AAI federation, see below, is provided by the SWITCH online demo [#switchaaidemo]_.
+
+
+The user’s attributes are exchanged between the SP and the IdP using public-key cryptography. 
+They are sent along with the redirects through the user's brower.
+To achieve this, the CENDARI SP and the DARIAH IdP have pre-shared their public-keys through a manual verification process.
+
+Therefore the DARIAH IdP can trust that the authentication requests have been started by a trusted party, i.e. CENDARI, and disclose the user’s private attributes.
+Even more importantly, the CENDARI SP can validate the user’s attributes it receives as authoritative. 
+The application can thus simply trust the identity it receives from the SP. 
+The exchange between the actual application and the SP is handled entirely by the Apache web server.
+
+
+Enabling Shibboleth authentication
+----------------------------------
+
+The direct way of using Shibboleth, is to enable it in Apache's config for a certain location
+
+.. code-block:: apache
+
+   # enabling Shibboleth
+   <Location /shibboleth-enabled>
+     AuthType shibboleth
+     Require shibboleth
+   </Location>
+
+and than trigger a Shibboleth authentication by redirectin the user to
+
+.. code-block:: apache
+
+   https://<server>.cendari.dariah.eu/Shibboleth.sso/Login?target=<return url>
+
+Alternatively, Apache can enforce the Shibboleth authentication directly for a certain URL,
+i.e. the application can rely on Apache to make sure the user is authenticated through Shibboleth when accessing a certain path on the server
+
+.. code-block:: apache
+
+   # enforcing Shibboleth
+   <Location /shibboleth-enforced>
+     AuthType shibboleth
+     ShibRequestSetting requireSession true
+     Require shib-attr isMemberOf cendari-users
+   </Location>
 
 Accessing user identity
 -----------------------
 
-All CENDARI front end applications can access the user's attributes from the server's environment variables or headers, as listed in the following table.
+After successful authentication, the CENDARI front end applications can access the user's attributes from the server's environment variables or headers, 
+as listed in the following table.
 
 ============== ========
 Attribute      Contents
@@ -57,4 +118,5 @@ Thus upon login, the application matches this list against the known groups corr
 .. [#edugain] `eduGAIN – Interconnecting federations to link services and users worldwide <http://www.geant.net/service/eduGAIN/Pages/home.aspx>`_
 .. [#SAML]   Security Assertion Markup Language
 .. [#shibbolethnet] `Shibboleth <https://shibboleth.net/>`_
+.. [#switchaaidemo] `SWITCH  AAI Demo <https://www.switch.ch/aai/demo/>`_
 
