@@ -53,7 +53,7 @@ The direct way of using Shibboleth, is to enable it in Apache's config for a cer
      Require shibboleth
    </Location>
 
-and than trigger a Shibboleth authentication by redirectin the user to
+and than trigger a Shibboleth authentication by redirecting the user to
 
 .. code-block:: apache
 
@@ -70,6 +70,16 @@ i.e. the application can rely on Apache to make sure the user is authenticated t
      ShibRequestSetting requireSession true
      Require shib-attr isMemberOf cendari-users
    </Location>
+
+
+Closing the Session
+^^^^^^^^^^^^^^^^^^^
+
+To end a Shibboleth session, i.e. log out the current user, the application has to end it's own user session and finally initiate a redirect to
+
+.. code-block:: apache
+
+   https://<fqdn>/Shibboleth.sso/Logout
 
 Accessing user identity
 -----------------------

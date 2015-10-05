@@ -10,5 +10,5 @@ Collecting Documents and Notes
 
 .. only:: latex
 
-   The introductory Videon to the NTE has been published on `Youtube <https://www.youtube.com/watch?v=128eoXTrfVk>`_.
+   The introductory Video to the NTE has been published on `Youtube <https://www.youtube.com/watch?v=128eoXTrfVk>`_.
 
