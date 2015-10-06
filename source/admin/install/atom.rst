@@ -60,4 +60,38 @@ If necessary, recreate the Elastic index
 .. code-block:: bash
 
     sudo -u www-data php symfony search:populate
+    
+    
+Configuration
+-------------
+
+Verify Language and Timezone in ``apps/qubit/config/settings.yml`` 
+and add the database settings to ``config/config.php`` and the ElasticSearch settings to ``config/search.yml``.
+
+Add the Shibboleth mapping to ``apps/qubit/config/app.yml``:
+
+.. code-block:: bash
+
+    all:
+      shibboleth_administrator_groups: 'cendari-archives-admins;cendari-admins'
+      shibboleth_editor_groups: 'cendari-archives-editors'
+      shibboleth_contributor_groups: 'cendari-archives-contributors;cendari-contributors'
+      shibboleth_translator_groups: 'cendari-archives-translators'
+
+
+
+CKAN upload
+-----------
+
+To regularily upload all config files to CKAN, install `atom2ckan <https://github.com/CENDARI/atom2ckan>`_ by cloning from GitHub 
+and filling in the settings to ``complete_atom_to_ckan_config.php``.
+
+.. todo:: Database modifications
+
+The following command should be executed by the ``www-data`` user periodically, i.e. via cron
+
+.. code-block:: bash
+
+    cd /var/www/atom2/atom2ckan && php complete_atom_to_ckan.php
+
 

@@ -4,7 +4,7 @@ Litef Conductor
 
 The Litef Conductor can be built and installed from its source in the `litef-conductor repository <https://github.com/CENDARI/litef-conductor>`_ on GitHub.
 
-To build it,  Java 1.7.x, Scala 2.10.4 and `SBT <http://www.scala-sbt.org/>`_ are required.
+To build it, Java 1.7.x, Scala 2.10.4 and `SBT <http://www.scala-sbt.org/>`_ are required.
 Running
 
 .. code-block:: bash
@@ -58,7 +58,7 @@ Additionally, Litef requires a configuration file ``/etc/litef/application.conf`
 
    litef.conductor {
      fileSizeLimit = 10000
-     plugins = "conductor.plugins.DocumentIndexerPlugin,conductor.plugins.NerdPlugin,conductor.plugins.VirtuosoFeederPlugin"
+     plugins = "conductor.plugins.DocumentIndexerPlugin,conductor.plugins.NerdPlugin,conductor.plugins.VirtuosoFeederPlugin,conductor.plugins.ElasticFeederPlugin"
    }
 
    akka {
@@ -96,6 +96,10 @@ Litef requires a dedicated CKAN sysadmin, thus after installing CKAN create that
    paster sysadmin add litef -c /etc/ckan/production.ini
 
 Add the new sysadmin's API key to ``/etc/litef/application.conf``.
+
+Litef needs modifications to the CKAN dabase.
+
+.. todo:: document them
 
 Finally, Litef can be started by
 
