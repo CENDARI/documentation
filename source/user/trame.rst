@@ -98,6 +98,8 @@ combines both:
 
 3. How to use TRAME
 --------------------
+**Site Selection**
+
 .. only:: html
   
    .. raw:: html
@@ -106,9 +108,43 @@ combines both:
 
 .. only:: latex
 
-   The introductory Video to TRAME: Site selection video has been published on `Youtube <https://www.youtube.com/watch?v=_uXPH5WK9hU>`_.
+   The introductory Video to TRAME: Site selection has been published on `Youtube <https://www.youtube.com/watch?v=_uXPH5WK9hU>`_.
 
 
+**Simple Search**
 
+.. only:: html
+  
+   .. raw:: html
 
+      <iframe width="540" height="315" src="https://www.youtube.com/watch?v=mXE-dXraL0E" frameborder="0" allowfullscreen></iframe>
+
+.. only:: latex
+
+   The introductory Video to *TRAME: simple search* has been published on `Youtube <https://www.youtube.com/watch?v=mXE-dXraL0E>`_.
+   
+   
+**Shelf-mark search**
+
+.. only:: html
+  
+   .. raw:: html
+
+      <iframe width="540" height="315" src="https://www.youtube.com/watch?v=_uXPH5WK9hU" frameborder="0" allowfullscreen></iframe>
+
+.. only:: latex
+
+   The introductory Video to *TRAME: simple search* has been published on `Youtube <https://www.youtube.com/watch?v=_uXPH5WK9hU>`_.
+   
+**Advanced search**
+
+.. only:: html
+  
+   .. raw:: html
+
+      <iframe width="540" height="315" src="https://www.youtube.com/watch?v=3qrFDSFucNs" frameborder="0" allowfullscreen></iframe>
+
+.. only:: latex
+
+   The introductory Video to *TRAME: simple search* has been published on `Youtube <https://www.youtube.com/watch?v=3qrFDSFucNs>`_.
 
