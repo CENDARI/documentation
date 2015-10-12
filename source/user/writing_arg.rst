@@ -4,9 +4,10 @@ Working with the NTE
 
 .. image:: ./images/TUG_01.png
 
+1. Create and edit content
+-----------
 
-Create a Note
----------------
+**Create a Note**
 
 To create a new note, click :menuselection:`New` in the Menu Bar and
 then :menuselection:`Note`. Write your file’s title into the field :menuselection:`Note's
@@ -15,8 +16,8 @@ title`. Write some content in the main body of the note
 without content cannot be saved). Click on :menuselection:`Save` (a green
 bar should appear), and you can continue working.
 
-Creating a table of contents
--------------------------------------
+**Creating a table of contents**
+
 
 To structure your note, type the headings and elements of
 your note into the text. Then mark each heading one by
@@ -34,8 +35,7 @@ following table of contents:
 * Secondary sources
 * Additional sources
 
-Creating a table
-----------------------
+**Creating a table**
 
 Go to the point in the text where you plan to insert a
 table. Click on the :menuselection:`Insert --> Edit Table` button (second row,
@@ -53,7 +53,21 @@ this drop-down menu you can select the border in the line
 again and chose :menuselection:`Read mode` and all of the selected
 options will be displayed.
 
-Insert funtions
+**Saving Work**
+
+Please save all of your work and log yourself out after
+finishing a session. It is a good idea to regularly save work
+in the NTE.
+
+**HTML**
+
+If you have experience with editing in HTML Source Code,
+you can click on the :menuselection:`html` button in the first row of the
+editor. In the pop-up window you can edit code and save
+it with :menuselection:`Update`.
+
+
+2. Insert funtions
 ------------------
 
 **Inserting text**
@@ -73,6 +87,10 @@ can also insert links manually by selecting a section of
 text, and then clicking on the :menuselection:`chain` button in the editing
 menu (called :menuselection:`Insert --> Edit Link`).
 
+**Insert images**
+
+You can add images to your Notes by moving the cursor to the place in the text where you want to insert the picture, and then click on the small icon with the tree (in the second line of the menu of the editor, to the very left). A window opens; to the right of :menuselection:`Image URL` there is an icon :menuselection:`Browse`. By clicking it you can upload images from your computer. In the tab :menuselection:`Appearance` you can tell the system to put the image to the right or left side and to display it smaller than the original size (f.ex. you put the value 300 into the left box and keep the :menuselection:`Constrain Proportions` box ticked, then the image will be displayed smaller - in this case 300px, which is around 10cm).
+The NTE will also provide users with the possibility to upload images in a separate folder, under :menuselection:`Documents`. To add a document go to :menuselection:`New` and click on :menuselection:`Document`. Then type in the description of the document you want to add and click ‘Save’. The description will become the title of your document. Next you can add your document by going to the 'scan' tab at the top of the page and choosing the right file to upload. After uploading the scan, save your document again. In the near future, it will be possible to use the viewer function at the bottom of the page, allowing you to examine your scans closely and for example to work on a transcription in the NTE.
 
 
 
@@ -97,7 +115,7 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-Entity Management
+3. Entity Management
 ---------------------
 
 **Tagging of entities**
@@ -166,31 +184,28 @@ Provide a date for the event between square brackets in this format 'mm/dd/yyyy'
 Create an event entity from a document or a note as before. You do not need to provide a date between brackets. Open the event you created (e.g.:menuselection:`battle of Wilkomierz`) from the resources tree. In the :menuselection:`Resolve` field, type the first few letters of the event and pick a suitable result from the suggested list. Press :menuselection:`save`. When resolving events automatically, the user has an option to check the date for an event from dbpedia after having found the event via the suggestions or after having provided the dbpedia link. This is done by clicking the :menuselection:`Search for dates` button in the entity form. If a date has been found then the user has the option to keep or discard this date. The NTE will try to fetch the date automatically from dbpedia. If a date exists and if its format is processable, then the entity will be resolved and its date assigned to the timeline. If there is no available date from dbpedia or the retrieved format is not in a recognisable format, a warning message is issued. This is a potential candidate for manual resolution (as above). Please note that events which have lasted for more than one day are not being displayed on the timeline. Also, hovering over the label for the date field shows a tooltip describing the date formats to be used for tagging dates in notes, documents and transcripts (i.e. %d/%m/%Y and %m/%d/%Y)
 
 
+4. Versioning
+-------------
+
+**Versioning and Reversion History**
+
+Open a note or a document, next to the save button you will find the :menuselection:`version history` button. Click on this button and you will see the latest versions for this document or note. You can check each of the old versions of these documents by clicking on the links.
+Reversion History: the date of each history version of a document or a note is available now. Open a document, click on :menuselection:`Version History` button from the menu bar. The revision history is displayed in a new page. Select an old version, the content of this document version will be opened in the editor. You will notice next to :menuselection:`Document Description` the date (between brackets) when this version was created. The :menuselection:`Revert to this version` link next to :menuselection:`Document's description` allows for reverting the document to the selected history version. Note that revision history also works for notes.
 
 
-HTML
----------
 
-If you have experience with editing in HTML Source Code,
-you can click on the :menuselection:`html` button in the first row of the
-editor. In the pop-up window you can edit code and save
-it with :menuselection:`Update`.
 
-Reporting issues
+
+5. Reporting issues
 ----------------------
 
 If something does not work or if the system crashes, you
 can click on the button :menuselection:`Issue report` on the very top of
 the page.
 
-Saving work
-----------------
 
-Please save all of your work and log yourself out after
-finishing a session. It is a good idea to regularly save work
-in the NTE.
 
-Frequently Asked Questions
+6. Frequently Asked Questions
 ------------------------------
 
 **How can I invite other persons to work on an ARG together?**
