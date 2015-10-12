@@ -53,8 +53,10 @@ this drop-down menu you can select the border in the line
 again and chose :menuselection:`Read mode` and all of the selected
 options will be displayed.
 
-Inserting text
-----------------
+Insert funtions
+------------------
+
+**Inserting text**
 
 You can simply type text into the editor as in any word
 processing programme (using the buttons in the first row
@@ -71,8 +73,11 @@ can also insert links manually by selecting a section of
 text, and then clicking on the :menuselection:`chain` button in the editing
 menu (called :menuselection:`Insert --> Edit Link`).
 
-Insert Footnotes/References
-----------------------------------
+
+
+
+
+**Insert Footnotes/References**
 
 Go to the end of your text. If there is no reference section
 there, create it first by marking it as you did when creating
@@ -92,8 +97,10 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-Tagging of entities
-----------------------------
+Entity Management
+---------------------
+
+**Tagging of entities**
 
 Highlight the entity you want to add to your resource.
 Then right-click with your mouse and choose from the
@@ -109,8 +116,7 @@ an explanatory description to your entity if you right-click
 with your mouse, as a drop-down menu will appear,
 offering different options (for example :menuselection:`son of`).
 
-Resolving of entities
-------------------------------
+**Resolving of entities**
 
 If you want your entities to be tagged right-click the entity with
 your mouse and choose from the context menu the
@@ -143,6 +149,23 @@ tabs in the middle of your working space (:menuselection:`Related notes`,
 :menuselection:`Related documents`, :menuselection:`Related entities`).
 
 .. image:: ./images/TUG_03.png
+
+
+**Auto-completion for the resolution of entities**
+
+If you hover with the cursor over an entity, its colour changes to orange or yellow. If you click on it, a window opens where you can resolve or delete the entity (:menuselection:`Edit Schema.org Entity`); you can also change the entity type here. In order to have events resolved, you should provide an entity name in the first field. Over there an auto-completion service has been provided to help in the entity resolution process. If you type the first few characters of the entity name in the :menuselection:`Resolve` field, the NTE will suggest some dbpedia entries and fetch the url of the selected suggestion automatically. If the service does not find what you are looking for, you can always copy-paste a dbpedia link in the form http://dbpedia.org/resource/ENTITY.
+Another way to resolve entities is to go to the :menuselection:`entities` section in the west panel. There also an auto-completion service to help in the entity resolution process has been provided. 
+
+**Manual Resolution of Events**
+
+Provide a date for the event between square brackets in this format 'mm/dd/yyyy', that is month, then day followed by the year. For example, in a note or document, tag :menuselection:`Battle of Albuera [05/16/1811]` as an event. Then, press save. The NTE will reload the page and show the date of this battle on the timeline. To verify this, you can open the events folder from the resources tree (west panel) and locate the entity :menuselection:`Battle of Albuera [05/16/1811]`. Hovering over this event will highlight its date in the timeline. Note that resolved event entities do not have an asterisk (*) next to their names in the resources tree. If you do not provide a date between brackets [] or not in the correct format during the tagging process, the date will not be recognized and the entity will not be resolved. 
+
+
+**Automatic Resolution of Events**
+
+Create an event entity from a document or a note as before. You do not need to provide a date between brackets. Open the event you created (e.g.:menuselection:`battle of Wilkomierz`) from the resources tree. In the :menuselection:`Resolve` field, type the first few letters of the event and pick a suitable result from the suggested list. Press :menuselection:`save`. When resolving events automatically, the user has an option to check the date for an event from dbpedia after having found the event via the suggestions or after having provided the dbpedia link. This is done by clicking the :menuselection:`Search for dates` button in the entity form. If a date has been found then the user has the option to keep or discard this date. The NTE will try to fetch the date automatically from dbpedia. If a date exists and if its format is processable, then the entity will be resolved and its date assigned to the timeline. If there is no available date from dbpedia or the retrieved format is not in a recognisable format, a warning message is issued. This is a potential candidate for manual resolution (as above). Please note that events which have lasted for more than one day are not being displayed on the timeline. Also, hovering over the label for the date field shows a tooltip describing the date formats to be used for tagging dates in notes, documents and transcripts (i.e. %d/%m/%Y and %m/%d/%Y)
+
+
 
 
 HTML
