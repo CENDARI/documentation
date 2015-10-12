@@ -13,7 +13,7 @@ Prerequisites
 
 AtoM is a PHP application served through Apache
 
-.. code-clock:: puppet
+.. code-block:: puppet
 
     package {'php5-cli': ensure => installed }
 
@@ -131,15 +131,17 @@ The following command should be executed by the ``www-data`` user periodically, 
     cd /var/www/atom2/atom2ckan && php complete_atom_to_ckan.php
 
 
-EMAIL report
-------------
+E-Mail report
+^^^^^^^^^^^^^^
 
 The script ``mail_report.php`` sends informartion on the current number of files in AtoM and
-the number of transfered files to CKAN, install `atom2ckan <https://github.com/CENDARI/atom2ckan>`_ by cloning from GitHub
-and filling in the settings to ``mail_report_config.php``.
+the number of transfered files to CKAN.
+It is part of `atom2ckan`, thus simply fill in the settings to ``mail_report_config.php``.
 
 The following command should be executed by the ``www-data`` user periodically (weekly: Wednesday, 14:00), i.e. via cron
 
 .. code-block:: bash
 
     cd /var/www/atom2/atom2ckan && php mail_report.php
+
+
