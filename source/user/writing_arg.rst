@@ -5,7 +5,7 @@ Working with the NTE
 .. image:: ./images/TUG_01.png
 
 1. Create and edit content
------------
+------------------------------
 
 **Create a Note**
 
@@ -65,6 +65,18 @@ If you have experience with editing in HTML Source Code,
 you can click on the :menuselection:`html` button in the first row of the
 editor. In the pop-up window you can edit code and save
 it with :menuselection:`Update`.
+
+**Image Viewer**
+
+The image viewer is meant to transcribe scans; it can be used after having established a document in your project. The image viewer is to be found on the bottom of the middle column (split screen). You can use it if you click on the 'Scans' tab and upload and select one of the image presented there by clicking on it. Afterwards this image is presented in the Image Viewer below. You may need to scroll down and open the :menuselection:`Viewers` tab. The image can also be viewed in a separate browser tab, by clicking on the expand button (on the top right corner of the :menuselection:`Image` viewer pane). Via the :menuselection:`Scans`-tab several multimedia file formats can be uploaded: png, jpeg, tif, tiff, mp3, avi, doc, pdf.
+
+
+
+**Faceted Search**
+
+On top of the main page of the Note Taking Environment NTE there is a search box. By typing a query in the search field, results from within the Note Taking Environment, from dbpedia entries and from TRAME, a database for medieval sources will be shown. There is a check box underneath the :menuselection:`include TRAME` checkbox, called :menuselection:`Search Current Project` for limiting the search to the current project. On the results page, the faceted search options are available. Please do filter the results according to your needs.
+
+
 
 
 2. Insert funtions
@@ -191,8 +203,6 @@ Create an event entity from a document or a note as before. You do not need to p
 
 Open a note or a document, next to the save button you will find the :menuselection:`version history` button. Click on this button and you will see the latest versions for this document or note. You can check each of the old versions of these documents by clicking on the links.
 Reversion History: the date of each history version of a document or a note is available now. Open a document, click on :menuselection:`Version History` button from the menu bar. The revision history is displayed in a new page. Select an old version, the content of this document version will be opened in the editor. You will notice next to :menuselection:`Document Description` the date (between brackets) when this version was created. The :menuselection:`Revert to this version` link next to :menuselection:`Document's description` allows for reverting the document to the selected history version. Note that revision history also works for notes.
-
-
 
 
 
