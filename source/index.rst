@@ -3,7 +3,7 @@
    You can adapt this file to your liking, but it should 
    contain the root `toctree` directive.
 
-CENDARI documentation!
+CENDARI documentation
 ===================================
 
 This is the official documentation of CENDARI infrastructure.
@@ -15,7 +15,7 @@ The documentation further includes the technical documentation of the different 
 .. only:: html
 
    Release |release|.
-   This documentation if also available as `PDF <CENDARI.pdf>`_.
+   This documentation is also available as `PDF <CENDARI.pdf>`_.
 
 
 .. note::
