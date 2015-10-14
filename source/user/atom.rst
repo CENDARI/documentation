@@ -1,10 +1,10 @@
-AtoM - Access to Memory
-=======================
+CENDARI Archival Directory
+===========================
 
-`AtoM <https://www.accesstomemory.org/en/>`_ stands for Access to Memory. It is a web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment. This software was chosen because it adheres to international standards
-and as a user friendly tool to produce archival descriptions.
+The `CENDARI Archival directory <https://archives.cendari.dariah.eu/>`_ is implemented through `AtoM <https://www.accesstomemory.org/en/>`_, which stands for Access to Memory. 
+It is a web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment. 
+This software was chosen because it adheres to international standards and as a user friendly tool to produce archival descriptions.
 
-In AtoM you can search for archival descriptions and 
 
 
 Starting your search
