@@ -370,7 +370,49 @@ The areas are:
 * Archival History [optional]
 * Immediate Source of Acquisition or Transfer [optional]
 
+**Content and Structural Area**
  
- 
+**Conditions of Access and Use area**
+
+**Allied Materials Area**
+
+**Notes area**
+
+**Access points**
+
+**Description Control area**
+
+**Rights Area**
+
+**Administrator Area**
+
+**Links to digitized objects**
+
+
+**Multilinguality of the Archival Directory**
+
+Many archival institutions in the Directory were described with names in Russian, Ukrainian, Lithuanian, etc. The original name can be seen in the identity area (the field “Authorized form of name”). The translated name of the same institution (usually in English) is available in the next field “Parallel form(s) of name”. This field can also contain different forms of authorized names. For example, there can be provided abbreviations and acronyms of institutional names. For example, in a search, typing the Latin letter form “GARF” will bring up as a result the State Archive of the Russian Federation. Typing in the Cyrillic “ГАРФ”, will bring up the same institution (Государственный архив Российской Федерации)
+
+In the title field for archival collection descriptions in some Eastern European archival institutions, the name of the archival unit is available in both English and Russian. For example:
+
+* Fonds 601 - Nicholas II of Russia / Николай II
+
+When adding new descriptions, it is best to enter the original language the institution’s proper title and the descriptions of their archival holdings, along with inputting an English translation of the titles. This will help future searches. 
+
+**Using the Notes area **
+
+The :menuselection:`Notes area` allows the user to add annotations according to their individual research interests. Users can inform the CENDARI community about important details regarding the archival collections. For example, the researcher’s experience of working with this collection, on-site or personal discoveries which could be useful and interesting for other users, etc. Every user can open a new note for his annotations by clicking on “Add new”. The notes should be accurate and understandable for other researchers. Editors monitoring the content may not accept notes if they do not correspond to the relevant archival descriptions. 
+
+	image
+
+**Uniting dispersed sources of the same institutions or persons **
+
+The dispersion of sources poses a major problem for historical research. Different tools are available, so that extensive travel might now always be necessary in order to find and describe sources. There on-line archival catalogues, databases, blogs, email expert advice, and projects such as as CENDARI. Archival sources can be found in unexpected places, for example, among the papers of secret services, state organizations or private papers, which might be in the process of being described and digitised. Some previously top-secret files may be declassified.
+
+To discover archival collections, the researcher should be familiar with the history of its creators. Help can be provided by both primary sources (published collections) and secondary sources (encyclopedic entries, thematic monographs and articles).
+
+**The case of Jewish archives: the American JDC archive**
+	
+Jewish sources are scattered across different countries and various cultural heritage institutions (Jewish archives, national and regional archives, national libraries, museums, etc.). Due to wars, migrations and deportations the Jewish archives were dispersed and even split among different countries. For example, the records of the American Jewish Joint Distribution Committee (JDC) can be found in different institutions of Eastern Europe, America, and Israel. This organization operated in over 90 countries. Their main task was to bring urgent aid to Jewish communities as well as to individuals in need, including refugees, orphans, POWs and other groups. The activity of the Jewish Joint Distribution Committee was very important after 1914, when the JDC was involved in charitable activities in the warring countries and later in the newly established states of Central and Eastern Europe (Poland, Lithuania, Hungary and others). In the 1920s the JDC supported programs such as medical assistance, training and resettlement of Jews from shtetls, in the Soviet republics until its activity was stopped by the Soviet regime during the years of the Great Terror (1937-1938).
 
 
