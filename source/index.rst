@@ -19,7 +19,7 @@ The documentation further includes the technical documentation of the different 
 
 
 .. note::
-   These docs are maintained by the CENDARI project team. They are a work
+   These docs are maintained by the CENDARI project team. They are work
    in progress and extended during the project's life.
 
 
