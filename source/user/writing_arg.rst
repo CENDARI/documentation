@@ -127,7 +127,13 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-3. Entity Management
+3. Named Entity Recognition and Disambiguation (NERD)
+------------------------------------------------------
+
+CENDARI provides for a multi-language Named Entity Recognition and Disambiguation service. This service locates and classifies entities in the text provided in notes and documents such as the names of persons, places, organizations, events. Using the service is quite simple: After having provided a text in a note or document, simply press the :menuselection:`Smiley` button in the toolbar of the editor. The service will process the text and find the possible entities contained. The results are being displayed in the text: Recognized entities receive a colored underlining. Please save the results by pressing the :menuselection:`Save` button. The recognized entities will be shown in the resources tree in the west panel. Afterwards you can go through your text and resolve entities manually or assign the appropriate entity class if they were not recognized correctly. 
+
+
+4. Entity Management
 ---------------------
 
 **Tagging of entities**
@@ -196,7 +202,7 @@ Provide a date for the event between square brackets in this format 'mm/dd/yyyy'
 Create an event entity from a document or a note as before. You do not need to provide a date between brackets. Open the event you created (e.g.:menuselection:`battle of Wilkomierz`) from the resources tree. In the :menuselection:`Resolve` field, type the first few letters of the event and pick a suitable result from the suggested list. Press :menuselection:`save`. When resolving events automatically, the user has an option to check the date for an event from dbpedia after having found the event via the suggestions or after having provided the dbpedia link. This is done by clicking the :menuselection:`Search for dates` button in the entity form. If a date has been found then the user has the option to keep or discard this date. The NTE will try to fetch the date automatically from dbpedia. If a date exists and if its format is processable, then the entity will be resolved and its date assigned to the timeline. If there is no available date from dbpedia or the retrieved format is not in a recognisable format, a warning message is issued. This is a potential candidate for manual resolution (as above). Please note that events which have lasted for more than one day are not being displayed on the timeline. Also, hovering over the label for the date field shows a tooltip describing the date formats to be used for tagging dates in notes, documents and transcripts (i.e. %d/%m/%Y and %m/%d/%Y)
 
 
-4. Versioning
+5. Versioning
 -------------
 
 **Versioning and Reversion History**
@@ -206,7 +212,7 @@ Reversion History: the date of each history version of a document or a note is a
 
 
 
-5. Reporting issues
+6. Reporting issues
 ----------------------
 
 If something does not work or if the system crashes, you
@@ -215,7 +221,7 @@ the page.
 
 
 
-6. Frequently Asked Questions
+7. Frequently Asked Questions
 ------------------------------
 
 **How can I invite other persons to work on an ARG together?**
