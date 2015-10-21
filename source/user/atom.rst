@@ -288,13 +288,13 @@ In the title field for archival collection descriptions in some Eastern European
 
 When adding new descriptions, it is best to enter the original language the institution’s proper title and the descriptions of their archival holdings, along with inputting an English translation of the titles. This will help future searches. 
 
-**Using the Notes area **
+**Using the Notes area**
 
 The :menuselection:`Notes area` allows the user to add annotations according to their individual research interests. Users can inform the CENDARI community about important details regarding the archival collections. For example, the researcher’s experience of working with this collection, on-site or personal discoveries which could be useful and interesting for other users, etc. Every user can open a new note for his annotations by clicking on “Add new”. The notes should be accurate and understandable for other researchers. Editors monitoring the content may not accept notes if they do not correspond to the relevant archival descriptions. 
 
 	image
 
-**Uniting dispersed sources of the same institutions or persons **
+**Uniting dispersed sources of the same institutions or persons**
 
 The dispersion of sources poses a major problem for historical research. Different tools are available, so that extensive travel might now always be necessary in order to find and describe sources. There on-line archival catalogues, databases, blogs, email expert advice, and projects such as as CENDARI. Archival sources can be found in unexpected places, for example, among the papers of secret services, state organizations or private papers, which might be in the process of being described and digitised. Some previously top-secret files may be declassified.
 
@@ -304,5 +304,54 @@ To discover archival collections, the researcher should be familiar with the his
 	
 Jewish sources are scattered across different countries and various cultural heritage institutions (Jewish archives, national and regional archives, national libraries, museums, etc.). Due to wars, migrations and deportations the Jewish archives were dispersed and even split among different countries. For example, the records of the American Jewish Joint Distribution Committee (JDC) can be found in different institutions of Eastern Europe, America, and Israel. This organization operated in over 90 countries. Their main task was to bring urgent aid to Jewish communities as well as to individuals in need, including refugees, orphans, POWs and other groups. The activity of the Jewish Joint Distribution Committee was very important after 1914, when the JDC was involved in charitable activities in the warring countries and later in the newly established states of Central and Eastern Europe (Poland, Lithuania, Hungary and others). In the 1920s the JDC supported programs such as medical assistance, training and resettlement of Jews from shtetls, in the Soviet republics until its activity was stopped by the Soviet regime during the years of the Great Terror (1937-1938).
 
+In the title field for archival collection descriptions in some Eastern European archival institutions, the name of the archival unit is available in both English and Russian. For example:
+
+* Fonds 601 - Nicholas II of Russia / Николай II
+
+When adding new descriptions, it is best to enter the original language the institution’s proper title and the descriptions of their archival holdings, along with inputting an English translation of the titles. This will help future searches. 
+
+**Using the Notes area**
+
+The :menuselection:`Notes area` allows the user to add annotations according to their individual research interests. Users can inform the CENDARI community about important details regarding the archival collections. For example, the researcher’s experience of working with this collection, on-site or personal discoveries which could be useful and interesting for other users, etc. Every user can open a new note for his annotations by clicking on :menuselection:`Add new`. The notes should be accurate and understandable for other researchers. Editors monitoring the content may not accept notes if they do not correspond to the relevant archival descriptions. 
+
+	image
+	
+**Uniting dispersed sources of the same institutions or persons**
+
+The dispersion of sources poses a major problem for historical research. Different tools are available, so that extensive travel might now always be necessary in order to find and describe sources. There on-line archival catalogues, databases, blogs, email expert advice, and projects such as as CENDARI. Archival sources can be found in unexpected places, for example, among the papers of secret services, state organizations or private papers, which might be in the process of being described and digitised. Some previously top-secret files may be declassified.
+
+To discover archival collections, the researcher should be familiar with the history of its creators. Help can be provided by both primary sources (published collections) and secondary sources (encyclopedic entries, thematic monographs and articles).
+
+* The case of Jewish archives: the American JDC archive
+
+Jewish sources are scattered across different countries and various cultural heritage institutions (Jewish archives, national and regional archives, national libraries, museums, etc.). Due to wars, migrations and deportations the Jewish archives were dispersed and even split among different countries. For example, the records of the American Jewish Joint Distribution Committee (JDC) can be found in different institutions of Eastern Europe, America, and Israel. This organization operated in over 90 countries. Their main task was to bring urgent aid to Jewish communities as well as to individuals in need, including refugees, orphans, POWs and other groups. The activity of the Jewish Joint Distribution Committee was very important after 1914, when the JDC was involved in charitable activities in the warring countries and later in the newly established states of Central and Eastern Europe (Poland, Lithuania, Hungary and others). In the 1920s the JDC supported programs such as medical assistance, training and resettlement of Jews from shtetls, in the Soviet republics until its activity was stopped by the Soviet regime during the years of the Great Terror (1937-1938).
+
+* `American Jewish Joint Distribution Committee, New York Archives <https://archives.cendari.dariah.eu/index.php/american-jewish-joint-distribution-committee-new-york-archives>`_
+* The case of political parties, organizations and private papers
+
+Many sources might be dispersed or have been relocated. For example, leaders of political parties were mobile people, and their private papers as well as the records of their organizations wandered with them, while another part remained in place. Nowadays many sources are preserved as separate collections or as parts of other collections within various archival holdings. For example, records of the Russian revolutionary leader Leon Trotsky (Leo Trotzki) are held among archival holdings in Russian, Dutch, American, and other archives.
+
+`Internationaal Instituut voor Sociale Geschiedenis <https://archives.cendari.dariah.eu/index.php/international-institute-of-social-history>`_
+
+	* `Collection Kautsky-Archiv - Karl Kautsky Papers <https://archives.cendari.dariah.eu/index.php/karl-kautsky-papers>`_ 
+
+`Russian State Archive of Socio-Political History <https://archives.cendari.dariah.eu/index.php/njao8>`_
+
+	* `Fonds 325 - Trotsky (Bronshtein) Lev Davidovich / Троцкий Лев Давидович <https://archives.cendari.dariah.eu/index.php/w9dz7>`_
+
+`Houghton Library, Harvard College Library, Harvard University <https://archives.cendari.dariah.eu/index.php/houghton-library-harvard-college-library-harvard-university>`_
+
+	* `Collection MS Russ 13.1 - Leon Trotsky exile papers <https://archives.cendari.dariah.eu/index.php/leon-trotsky-exile-papers>`_
+
+Information on dispersed collections can be consolidated in the Archival Directory: 
+
+* To virtually consolidate some collections, use the section “Allied materials area” within an archival description. 
+* In the field :menuselection:`Existence and location of originals`, the user can mention other archival institutions as well as libraries and museums where original records are located. This field can also provide details on whether the originals do not exist anymore or if their present location is unknown. For example, for records lost or destroyed during the Second World War. It would be best if the user provides control numbers. 
+
+	image
+	
+* In the field :menuselection:`Existence and location of copies`, the user can add information on the location of copies. Nowadays many archival institutions run programs to exchange their data. National archives in many countries are keen to receive original records or copies from foreign institutions on some important events relevant for national history or on outstanding compatriots, or the history of the diaspora. Some institutions, like the Central Archive for the History of the Jewish People (CAHJP) or the Yad Vashem archives focus on searching for data on the history of Jewish people in foreign archival holdings. 
+* In the field :menuselection:`Related units of description`, the user can add information on the units of description from the same repository or from another relevant one. Some archival collections (fonds) have up to now no proper inventories or finding aids that contain archival descriptions. In this way users can enlarge the common knowledge by contributing data.
+* The field :menuselection:`Related descriptions` demonstrates the relationship between archival descriptions in CENDARI Archival Directory. The user can choose from proposed variants of archival descriptions or add own ones. 
 
 
