@@ -8,7 +8,7 @@ This software was chosen because it adheres to international standards and as a 
 
 
 1. Starting your search
----------------------
+------------------------
 
 To start with a simple search like :menuselection:`manuscript`, enter your search terms in the search field. You can browse the results by the proposed list
 (:menuselection:`Archival descriptions`, :menuselection:`Archival institutions`, :menuselection:`Subjects` and :menuselection:`Places`) or you narrow your search by facets. You will get a list of records and
@@ -62,7 +62,7 @@ users registered as editors, the Archival Directory can be seen as work in progr
 users.
 
 3. Frequently Asked Questions
-----------------------------
+-------------------------------
 **Are users allowed to add descriptions and what kind of descriptions are users being allowed to add?**
 
 Users which are not logged in (reseachers) have :menuselection:`view-only` access to the CENDARI Archival Directory. Users are allowed to add archival
