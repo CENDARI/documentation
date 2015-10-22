@@ -34,7 +34,7 @@ Please, generally search independently from the language within the collections.
 keywords in this language (and in the appropriate script, f.ex. cyrillic) into the search box.
 
 2. Disclaimer
-------------
+---------------
 
 **Archival institutions** have been chosen for description according to the following criteria, according to CENDARIs case studies:
 
