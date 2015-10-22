@@ -234,7 +234,7 @@ A user with editor rights can create records for archival institutions. To add a
 
 **Adding archival descriptions**
 
-Archival descriptions should be added in accordance with the International Council on Archives ISAD(G) standard. In order to their archival descriptions freely accessible to all Archival Directory viewers, the user would need to contact a user with editor rights. The user with editor rights will check the quality of the submitted archival descriptions and then can change the archival descriptions’ status from 'draft' to 'published'. 
+Archival descriptions should be added in accordance with the International Council on Archives ISAD(G) standard. In order to their archival descriptions freely accessible to all Archival Directory viewers, the user would need to contact a user with editor rights. The user with editor rights will check the quality of the submitted archival descriptions and then can change the archival descriptions’ status from :menuselection:`draft` to :menuselection:`published`. 
 
 To create an archival description, click on the :menuselection:`Add` button on the top right (represented by a plus symbol) and select :menuselection:`Archival Description`. The user can name their archival description, which is initially designated ‘Untitled’ at the top of the page until changed by the user. 
 
