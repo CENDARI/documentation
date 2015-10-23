@@ -7,6 +7,14 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
 
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Darwin)
+    SEDARG = 'bak'
+else
+    SEDARG =
+endif
+
+
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
 $(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
@@ -114,7 +122,7 @@ latex:
 xetexpdf:
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through xelatex..."
-	sed -i '' 's/PDFLATEX = pdflatex/PDFLATEX = xelatex/g' $(BUILDDIR)/latex/Makefile
+	sed -i ${SEDARG} 's/PDFLATEX = pdflatex/PDFLATEX = xelatex/g' $(BUILDDIR)/latex/Makefile
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "xelatex finished; the PDF files are in $(BUILDDIR)/latex."
 
