@@ -60,7 +60,7 @@ license_link = u'http://creativecommons.org/licenses/by/4.0/'
 # built documents.
 #
 # DEFINE FULL VERSION AND RELEASE
-version = '0.1.0'
+version = '0.2.0'
 get_cendari_release = os.environ.get('CENDARI_RELEASE', None)
 if get_cendari_release != None:
     release = os.environ.get('CENDARI_RELEASE')
