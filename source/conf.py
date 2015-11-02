@@ -60,7 +60,7 @@ license_link = u'http://creativecommons.org/licenses/by/4.0/'
 # built documents.
 #
 # DEFINE FULL VERSION AND RELEASE
-version = '0.1.0'
+version = '0.2.0'
 get_cendari_release = os.environ.get('CENDARI_RELEASE', None)
 if get_cendari_release != None:
     release = os.environ.get('CENDARI_RELEASE')
@@ -209,7 +209,7 @@ html_theme_options = {
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_maketitlecommand = r'''\makeatletter
+latex_preamble = r'''\makeatletter
 \renewcommand{\maketitle}{%
   \begin{titlepage}%
     \let\footnotesize\small
@@ -254,23 +254,31 @@ latex_maketitlecommand = r'''\makeatletter
   %\gdef\@thanks{}\gdef\@author{}\gdef\@title{}
 }
 \makeatother
+
+\usepackage[libertine]{newtxmath}
+
+\usepackage{fontspec}
+\setsansfont{Linux Biolinum O}
+\setromanfont{Linux Libertine O}
 '''
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
 
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
 
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
 
-'fontpkg': '\\usepackage{libertine}\\usepackage[scaled=0.83]{beramono}',
-'fncychap': '\\usepackage[Glenn]{fncychap}',
-'printindex': '',
+    #'fontpkg': '\\usepackage{libertine}\\usepackage[scaled=0.83]{beramono}',
+    'fontpkg': '',
+    'fncychap': '\\usepackage[Glenn]{fncychap}',
+    'inputenc': '',
+    'utf8extra': '',
+    'printindex': '',
 
-'preamble': latex_maketitlecommand,
+    # Additional stuff for the LaTeX preamble.
+    'preamble': latex_preamble,
 
 }
 
