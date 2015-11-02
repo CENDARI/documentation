@@ -199,7 +199,7 @@ Apart from using AtoM to search and create archival descriptions and collections
 
 This is possible because all the data – manually established data in AtoM as well as data provided by cultural heritage institutions – were brought together in the repository. In other words: All the data contained in AtoM is migrated to the repository on a regular basis. The automatic indexation of the named entities contained in the archival descriptions, like names, places and dates, enhances the search possibilities offered to the users in the Note Taking Environment. As an example: the results of a search for person in the repository will show all related hits from both manually and automatically ingested data, along with all hits from the ontologies. These search results would included the people, places and dates related to the individual subject of the search.
 
-		image
+		.. image:: ./images/atom_1.png
 
 
 Remember that in uploading photographs, scans or digitized objects into the CENDARI Notes Taking Environment, users have to stick to the terms and conditions provided by the CENDARI project; moreover, it is good practice to discuss this intention with the archivist, and if necessary to request a formal permission to the archive. 
@@ -292,7 +292,7 @@ When adding new descriptions, it is best to enter the original language the inst
 
 The :menuselection:`Notes area` allows the user to add annotations according to their individual research interests. Users can inform the CENDARI community about important details regarding the archival collections. For example, the researcher’s experience of working with this collection, on-site or personal discoveries which could be useful and interesting for other users, etc. Every user can open a new note for his annotations by clicking on “Add new”. The notes should be accurate and understandable for other researchers. Editors monitoring the content may not accept notes if they do not correspond to the relevant archival descriptions. 
 
-	image
+	.. image:: ./images/atom_2.png
 
 **Uniting dispersed sources of the same institutions or persons**
 
@@ -314,7 +314,7 @@ When adding new descriptions, it is best to enter the original language the inst
 
 The :menuselection:`Notes area` allows the user to add annotations according to their individual research interests. Users can inform the CENDARI community about important details regarding the archival collections. For example, the researcher’s experience of working with this collection, on-site or personal discoveries which could be useful and interesting for other users, etc. Every user can open a new note for his annotations by clicking on :menuselection:`Add new`. The notes should be accurate and understandable for other researchers. Editors monitoring the content may not accept notes if they do not correspond to the relevant archival descriptions. 
 
-	image
+	.. image:: ./images/atom_3.png
 	
 **Uniting dispersed sources of the same institutions or persons**
 
@@ -348,7 +348,7 @@ Information on dispersed collections can be consolidated in the Archival Directo
 * To virtually consolidate some collections, use the section :menuselection:`Allied materials area` within an archival description. 
 * In the field :menuselection:`Existence and location of originals`, the user can mention other archival institutions as well as libraries and museums where original records are located. This field can also provide details on whether the originals do not exist anymore or if their present location is unknown. For example, for records lost or destroyed during the Second World War. It would be best if the user provides control numbers. 
 
-	image
+	.. image:: ./images/atom_4.png
 	
 * In the field :menuselection:`Existence and location of copies`, the user can add information on the location of copies. Nowadays many archival institutions run programs to exchange their data. National archives in many countries are keen to receive original records or copies from foreign institutions on some important events relevant for national history or on outstanding compatriots, or the history of the diaspora. Some institutions, like the Central Archive for the History of the Jewish People (CAHJP) or the Yad Vashem archives focus on searching for data on the history of Jewish people in foreign archival holdings. 
 * In the field :menuselection:`Related units of description`, the user can add information on the units of description from the same repository or from another relevant one. Some archival collections (fonds) have up to now no proper inventories or finding aids that contain archival descriptions. In this way users can enlarge the common knowledge by contributing data.
@@ -359,7 +359,7 @@ Another way to unite some collections or other units of descriptions (series, fi
 
 Users can add labels (subjects and/or places) to any archival description in the Archival Directory AtoM. This can be done both with entries that they have created themselves or those already contained in the system. This can be done by logging in and clicking on the :menuselection:`edit` button at the foot of the appropriate archival description page. Then click on :menuselection:`Access points` and enter the appropriate Subject or Place into the field. After either having typed manually or having chosen from the listed subjects and/or places, click on :menuselection:`Save` at the foot of the page. The categories :menuselection:`Subjects` and :menuselection:`Places` only partially correspond to the descriptions created the Archival Directory. This is due to all entries being entered manually, where it was personal decision of each compiler whether to add a relevant subject or place label to the entries.
 
-	image
+	.. image:: ./images/atom_5.png
 
 The labels produced by users can help to identify proper collections even though they are placed in different countries and in the various holdings. For example, the subject label :menuselection:`Cinema` will list different collections relevant to the history of the film industry and to records of different institutions which were responsible for propaganda and the production of movies during WWI, personal papers of actors, filmmakers, as well as copies of newsreels and movies.
 
