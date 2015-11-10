@@ -7,6 +7,7 @@ This section contains a collection of guides and HowTos.
    :hidden:
    :maxdepth: 1
 
+   user/authors
    user/collecting_documents_notes
    user/searching
    user/collaboration
