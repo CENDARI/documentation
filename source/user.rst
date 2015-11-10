@@ -9,7 +9,6 @@ This section contains a collection of guides and HowTos.
 
    user/authors
    user/collecting_documents_notes
-   user/collaboration
    user/licensing
    user/using_resources
    user/writing_arg
