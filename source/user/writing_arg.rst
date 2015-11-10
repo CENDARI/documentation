@@ -79,8 +79,8 @@ On top of the main page of the Note Taking Environment NTE there is a search box
 
 
 
-2. Insert funtions
-------------------
+2. Insert functions
+---------------------
 
 **Inserting text**
 
@@ -106,7 +106,6 @@ The NTE will also provide users with the possibility to upload images in a separ
 
 
 
-
 **Insert Footnotes/References**
 
 Go to the end of your text. If there is no reference section
@@ -127,13 +126,56 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-3. Named Entity Recognition and Disambiguation (NERD)
+3. Search functions
+------------------------
+Faceted Search with CENDARI is provided by XMLFacets.
+
+**The Search interface**
+
+When navigating to the CENDARI faceted search, the user will be presented with the main search interface, see :ref:`Figure <figure-search-start>`.
+
+.. _figure-search-start:
+
+.. figure:: images/xmlfacets_start.png
+
+The Search interface
+   
+**Using the facets**
+
+On the left of the screen, the user is presented with the available list of facets.
+Any active (not greyed out) facet can be opened by clicking the plus symbol, see :ref:`Figure <figure-search-facet>`.
+Then select the entry you want to choose.
+
+.. _figure-search-facet:
+
+.. figure:: images/xmlfacets_facet_country_Bosnia_and_Herzegovina.png
+
+The image show the results after selecting *Bosnia and Herzegovina* from the country facet
+
+Click the reset button on the top of the facet panel to return to the start.
+
+**Viewing a file**
+
+Selecting a search result takes you to the corresponding entry, see :ref:`Figure <figure-search-entry>`.
+
+.. _figure-search-entry:
+
+.. figure:: images/xmlfacets_Biblioteka_Gdanska_Polskiej_Akademii_Nauk.png
+
+The EAD file for *The Gdansk Library of the Polish Academy of Sciences*
+
+
+.. index::
+   single: facet	
+
+
+4. Named Entity Recognition and Disambiguation (NERD)
 ------------------------------------------------------
 
 CENDARI provides for a multi-language Named Entity Recognition and Disambiguation service. This service locates and classifies entities in the text provided in notes and documents such as the names of persons, places, organizations, events. Using the service is quite simple: After having provided a text in a note or document, simply press the :menuselection:`Smiley` button in the toolbar of the editor. The service will process the text and find the possible entities contained. The results are being displayed in the text: Recognized entities receive a colored underlining. Please save the results by pressing the :menuselection:`Save` button. The recognized entities will be shown in the resources tree in the west panel. Afterwards you can go through your text and resolve entities manually or assign the appropriate entity class if they were not recognized correctly. 
 
 
-4. Entity Management
+5. Entity Management
 ---------------------
 
 **Tagging of entities**
@@ -202,7 +244,7 @@ Provide a date for the event between square brackets in this format 'mm/dd/yyyy'
 Create an event entity from a document or a note as before. You do not need to provide a date between brackets. Open the event you created (e.g.:menuselection:`battle of Wilkomierz`) from the resources tree. In the :menuselection:`Resolve` field, type the first few letters of the event and pick a suitable result from the suggested list. Press :menuselection:`save`. When resolving events automatically, the user has an option to check the date for an event from dbpedia after having found the event via the suggestions or after having provided the dbpedia link. This is done by clicking the :menuselection:`Search for dates` button in the entity form. If a date has been found then the user has the option to keep or discard this date. The NTE will try to fetch the date automatically from dbpedia. If a date exists and if its format is processable, then the entity will be resolved and its date assigned to the timeline. If there is no available date from dbpedia or the retrieved format is not in a recognisable format, a warning message is issued. This is a potential candidate for manual resolution (as above). Please note that events which have lasted for more than one day are not being displayed on the timeline. Also, hovering over the label for the date field shows a tooltip describing the date formats to be used for tagging dates in notes, documents and transcripts (i.e. %d/%m/%Y and %m/%d/%Y)
 
 
-5. Versioning
+6. Versioning
 -------------
 
 **Versioning and Reversion History**
@@ -210,9 +252,13 @@ Create an event entity from a document or a note as before. You do not need to p
 Open a note or a document, next to the save button you will find the :menuselection:`version history` button. Click on this button and you will see the latest versions for this document or note. You can check each of the old versions of these documents by clicking on the links.
 Reversion History: the date of each history version of a document or a note is available now. Open a document, click on :menuselection:`Version History` button from the menu bar. The revision history is displayed in a new page. Select an old version, the content of this document version will be opened in the editor. You will notice next to :menuselection:`Document Description` the date (between brackets) when this version was created. The :menuselection:`Revert to this version` link next to :menuselection:`Document's description` allows for reverting the document to the selected history version. Note that revision history also works for notes.
 
+7. Collaboration and Sharing
+-----------------------------------
 
 
-6. Reporting issues
+
+
+8. Reporting issues
 ----------------------
 
 If something does not work or if the system crashes, you
@@ -221,7 +267,7 @@ the page.
 
 
 
-7. Frequently Asked Questions
+9. Frequently Asked Questions
 ------------------------------
 
 **How can I invite other persons to work on an ARG together?**
