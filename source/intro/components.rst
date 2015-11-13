@@ -1,4 +1,4 @@
-The Components
+Components
 ==============
 
 CENDARI consists of several components.
@@ -8,7 +8,7 @@ The following applications are visible to the end user.
 * Notes VRE, see :doc:`/user/writing_arg`
 * TRAME, see :doc:`/user/trame`
 
-For power users, CENDARI provides the 
+For power users, CENDARI provides the
 
 * AtoM Archival Director, see :doc:`/user/atom`
 
@@ -21,7 +21,7 @@ a user does not interact with.
 * RDF converter
 * NERD
 
-All CENDARI curated data is stored in the 
+All CENDARI curated data is stored in the
 
 * CKAN repository
 
