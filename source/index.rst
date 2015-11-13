@@ -1,6 +1,6 @@
 .. CENDARI documentation master file, created by
    sphinx-quickstart.
-   You can adapt this file to your liking, but it should 
+   You can adapt this file to your liking, but it should
    contain the root `toctree` directive.
 
 CENDARI documentation
