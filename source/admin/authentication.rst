@@ -43,21 +43,16 @@ The exchange between the actual application and the SP is handled entirely by th
 Enabling Shibboleth authentication
 ----------------------------------
 
-The direct way of using Shibboleth, is to enable it in Apache's config for a certain location
+Within CENDARI, all services have been developed or extended with the use of Shibboleth authentication in mind.
 
-.. code-block:: apache
+There are two ways Shibboleth authentication is used:
 
-   # enabling Shibboleth
-   <Location /shibboleth-enabled>
-     AuthType shibboleth
-     Require shibboleth
-   </Location>
+1. Access to the application is permitted only after successful authentication.
+2. Public access to the application is possible, but login is required to contribute content.
 
-and than trigger a Shibboleth authentication by redirecting the user to
 
-.. code-block:: apache
-
-   https://<server>.cendari.dariah.eu/Shibboleth.sso/Login?target=<return url>
+In both cases, the setup is very similar as the Shibboleth authentication is always enforced directly by Apache.
+Either the whole application or a dedicated Login-Page are protected by asserting
 
 Alternatively, Apache can enforce the Shibboleth authentication directly for a certain URL,
 i.e. the application can rely on Apache to make sure the user is authenticated through Shibboleth when accessing a certain path on the server
@@ -71,6 +66,25 @@ i.e. the application can rely on Apache to make sure the user is authenticated t
      Require shib-attr isMemberOf cendari-users
    </Location>
 
+in the Apache config.
+This way, the application simply checks for the presence of Shibboleth attributes and acts accordingly.
+In the first case of full shibboleth protecttion, the application simply fails to work without Shibboleth.
+
+The second case, where authentication is optional, rewuires the application to override its internal authentication in the presence of Shibboleth attributes.
+To make this work, the login has to be done on an individual page with a dedicated URL as opposed to a dropdown menu embedded on all pages.
+
+This login URL is than set up to enforce Shibboleth authentication prior to access.
+If the login page is called, the application checks for the presence of Shibboleth attributes.
+If they are present, the corresponding user is logged in directly, without actually prompting for a password.
+In other words, a session is started and the user is immediately directed back to the applications landing page.
+If the user is not yet know to the application, the account is created from the Shibboleth data on the fly.
+
+If the login page is called but no shibboleth data provided, as may be the case in development, the application handles authentication through its usual internbal mechanism.
+
+In both cases, the application initiates a session using its own session management after successful authentication either by Shibboleth or internal mechanisms.
+
+This solution has been applied to the CKAN repository and the AtoM Archival directory through :doc:`dedicated </developer/atom/shibboleth>` :doc:`plugins </developer/ckan/cendari>` plugins, as well as CENDARI's own NTE.
+
 
 Closing the Session
 ^^^^^^^^^^^^^^^^^^^
@@ -80,6 +94,9 @@ To end a Shibboleth session, i.e. log out the current user, the application has 
 .. code-block:: apache
 
    https://<fqdn>/Shibboleth.sso/Logout
+
+which will close the Shibboleth session on the Server. 
+Unless the user has authenticated within the last 30 minutes with the DARIAH IdP, a new login will be required when next accessing the services.
 
 Accessing user identity
 -----------------------

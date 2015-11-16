@@ -9,4 +9,5 @@ This section describes how the components are set up and connected.
 
    admin/installation
    admin/authentication
+   admin/maintenance
 
