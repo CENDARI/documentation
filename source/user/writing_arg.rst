@@ -232,7 +232,7 @@ tabs in the middle of your working space (:menuselection:`Related notes`,
 **Auto-completion for the resolution of entities**
 
 If you hover with the cursor over an entity, its colour changes to orange or yellow. If you click on it, a window opens where you can resolve or delete the entity (:menuselection:`Edit Schema.org Entity`); you can also change the entity type here. In order to have events resolved, you should provide an entity name in the first field. Over there an auto-completion service has been provided to help in the entity resolution process. If you type the first few characters of the entity name in the :menuselection:`Resolve` field, the NTE will suggest some dbpedia entries and fetch the url of the selected suggestion automatically. If the service does not find what you are looking for, you can always copy-paste a dbpedia link in the form http://dbpedia.org/resource/ENTITY.
-Another way to resolve entities is to go to the :menuselection:`entities` section in the west panel. There also an auto-completion service to help in the entity resolution process has been provided. 
+Another way to resolve entities is to go to the :menuselection:`entities` section in the west panel. There is also an auto-completion service to help in the entity resolution process has been provided. 
 
 **Manual Resolution of Events**
 
