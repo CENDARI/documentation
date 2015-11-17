@@ -114,7 +114,7 @@ headings. Click on the button with an anchor and provide
 a name of the anchor. Make sure that this is either one
 word, words with no spaces in between, or words with
 hyphens or underscores. Click :menuselection:`Insert`. Then go to the
-section in the text which you wish to link to the foonote.
+section in the text which you wish to link to the footnote.
 Put the number of the footnote in brackets (i.e. [1]),
 highlight the number and then click on the chain symbol
 (:menuselection:`Insert --> Edit Link`). Select the named anchor from the
