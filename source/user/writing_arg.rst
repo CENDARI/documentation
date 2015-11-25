@@ -32,10 +32,9 @@ then :menuselection:`Note`. Write your file’s title into the field :menuselect
 title`. Write some content in the main body of the note
 (this can be a short as one word such as :menuselection:`test`, as a note
 without content cannot be saved). Click on :menuselection:`Save` (a green
-bar should appear), and you can continue working.
+bar should appear), and you can continue working. Please be aware that you will be shown an error message if a note with the identical name already exists.
 
 **Creating a table of contents**
-
 
 To structure your note, type the headings and elements of
 your note into the text. Then mark each heading one by
@@ -89,15 +88,12 @@ it with :menuselection:`Update`.
 The image viewer is meant to transcribe scans; it can be used after having established a document in your project. The image viewer is to be found on the bottom of the middle column (split screen). You can use it if you click on the 'Scans' tab and upload and select one of the image presented there by clicking on it. Afterwards this image is presented in the Image Viewer below. You may need to scroll down and open the :menuselection:`Viewers` tab. The image can also be viewed in a separate browser tab, by clicking on the expand button (on the top right corner of the :menuselection:`Image` viewer pane). Via the :menuselection:`Scans`-tab several multimedia file formats can be uploaded: png, jpeg, tif, tiff, mp3, avi, doc, pdf.
 
 
-
 **Faceted Search**
 
 On top of the main page of the Note Taking Environment NTE there is a search box. By typing a query in the search field, results from within the Note Taking Environment, from dbpedia entries and from TRAME, a database for medieval sources will be shown. There is a check box underneath the :menuselection:`include TRAME` checkbox, called :menuselection:`Search Current Project` for limiting the search to the current project. On the results page, the faceted search options are available. Please do filter the results according to your needs.
 
 
-
-
-2. Insert functions
+3. Insert functions
 ---------------------
 
 **Inserting text**
@@ -123,7 +119,6 @@ You can add images to your notes by moving the cursor to the place in the text w
 The NTE will also provide users with the possibility to upload images in a separate folder, under :menuselection:`Documents`. To add a document go to :menuselection:`New` and click on :menuselection:`Document`. Then type in the description of the document you want to add and click ‘Save’. The description will become the title of your document. Next you can add your document by going to the 'scan' tab at the top of the page and choosing the right file to upload. After uploading the scan, save your document again. In the near future, it will be possible to use the viewer function at the bottom of the page, allowing you to examine your scans closely and for example to work on a transcription in the NTE.
 
 
-
 **Insert Footnotes/References**
 
 Go to the end of your text. If there is no reference section
@@ -144,7 +139,7 @@ point in the text from the reference.
 .. image:: ./images/TUG_02.png
 
 
-3. Search functions
+4. Search functions
 ------------------------
 Faceted Search with CENDARI is provided by XMLFacets.
 
@@ -187,13 +182,13 @@ The EAD file for *The Gdansk Library of the Polish Academy of Sciences*
    single: facet	
 
 
-4. Named Entity Recognition and Disambiguation (NERD)
+5. Named Entity Recognition and Disambiguation (NERD)
 ------------------------------------------------------
 
 CENDARI provides for a multi-language Named Entity Recognition and Disambiguation service. This service locates and classifies entities in the text provided in notes and documents such as the names of persons, places, organizations, events. Using the service is quite simple: After having provided a text in a note or document, simply press the :menuselection:`Smiley` button in the toolbar of the editor. The service will process the text and find the possible entities contained. The results are being displayed in the text: Recognized entities receive a colored underlining. Please save the results by pressing the :menuselection:`Save` button. The recognized entities will be shown in the resources tree in the west panel. Afterwards you can go through your text and resolve entities manually or assign the appropriate entity class if they were not recognized correctly. 
 
 
-5. Entity Management
+6. Entity Management
 ---------------------
 
 **Tagging of entities**
@@ -270,7 +265,7 @@ Both operations will result in the clustering of all related entities in a folde
 
 
 	
-6. Versioning
+7. Versioning
 -------------
 
 **Versioning and Reversion History**
@@ -278,13 +273,13 @@ Both operations will result in the clustering of all related entities in a folde
 Open a note or a document, next to the save button you will find the :menuselection:`version history` button. Click on this button and you will see the latest versions for this document or note. You can check each of the old versions of these documents by clicking on the links.
 Reversion History: the date of each history version of a document or a note is available now. Open a document, click on :menuselection:`Version History` button from the menu bar. The revision history is displayed in a new page. Select an old version, the content of this document version will be opened in the editor. You will notice next to :menuselection:`Document Description` the date (between brackets) when this version was created. The :menuselection:`Revert to this version` link next to :menuselection:`Document's description` allows for reverting the document to the selected history version. Note that revision history also works for notes.
 
-7. Collaboration and Sharing
+8. Collaboration and Sharing
 -----------------------------------
 
 
 
 
-8. Reporting issues
+9. Reporting issues
 ----------------------
 
 If something does not work or if the system crashes, you
@@ -293,7 +288,7 @@ the page.
 
 
 
-9. Frequently Asked Questions
+10. Frequently Asked Questions
 ------------------------------
 
 **How can I invite other persons to work on an ARG together?**
