@@ -4,7 +4,25 @@ Working with the NTE
 
 .. image:: ./images/TUG_01.png
 
-1. Create and edit content
+1. Creating a new project
+-----------------------------
+
+**Establishing new projects**
+
+If you want to create a new project, click on the :menuselection:`New`-tab on top of the middle pane of the NTE’s main window; select :menuselection:`project` from the drop-down menu and click it. You are directed to a page where you have to provide for a name of this new project. Please be aware that you will be shown an error message if a project with the identical name already exists. After having provided the name of the project, click :menuselection:`Save`. Afterwards this project can be shared with every user available in the list of usernames on the project edit page; the latter can be reached by clicking on the pencil in front of the project name.
+
+**Aliases for projects**
+
+If you like, you can add a new name for a project. Go to the project edit page by clicking on the pencil in front of the project name. Scroll down on this page until you reach the very bottom. You will find there the label :menuselection:`New Alias:` and beneath it a field where you can provide for a new name (alias) of this project. Afterwards click on the :menuselection:`Add` button below the field for the new name. The alias is provided and a link containing this alias of the project is being displayed.
+
+**Publishing your project**
+
+If you want to make your project publicly accessible – i.e. enable every user of the internet to access it without prior log-in – you have to go to the project edit page by clicking on the pencil in front of the project name. Scroll down on this page until you reach the bottom. You will find there the label :menuselection:`Is public:` and beneath it a check box. If you tick it and click on :menuselection:`Save` afterwards, the project will be displayed in the :menuselection:`Public projects` folder available at the bottom of the resources panel (west pane). 
+
+
+
+
+2. Create and edit content
 ------------------------------
 
 **Create a Note**
