@@ -141,45 +141,58 @@ point in the text from the reference.
 
 4. Search functions
 ------------------------
-Faceted Search with CENDARI is provided by XMLFacets.
+The Faceted Search within the CENDARI infrastructure can be accessed through the Search bar in the main window in the top right corner of the Note Taking Environment.
 
-**The Search interface**
 
-When navigating to the CENDARI faceted search, the user will be presented with the main search interface, see :ref:`Figure <figure-search-start>`.
+.. image:: ./images/search_01.png
 
-.. _figure-search-start:
+**The search interface**
 
-.. figure:: images/xmlfacets_start.png
+After having typed a search term into the search box, the user will be present the main search interface in a new tab.
 
-The Search interface
-   
+  .. image:: ./images/search_02.png 
+
+Users can type precise combinations of search terms by using the following symbols: + signifies AND; I signifies OR; - negates a single token; “ ” can be put around a phrase; * can be put as a placeholder at the end of a term for prefix; the symbols ( and ) signify precedence. Users can thus combine search terms and symbols according to their needs. Example: The combination of prisoners+of+war will render more precise search terms than the three words prisoners of war.
+
 **Using the facets**
 
-On the left of the screen, the user is presented with the available list of facets.
-Any active (not greyed out) facet can be opened by clicking the plus symbol, see :ref:`Figure <figure-search-facet>`.
-Then select the entry you want to choose.
+On the left side of the screen, the facets of the Faceted Search are being presented to the user. The user can narrow the results of his initial search by filtering them through the facets. Any facet can be opened by clicking the plus symbol. Afterwards the user can select the filter he wants to choose by clicking on it. In the screenshot below the user can choose whether the results from dbpedia, from the CENDARI repository (everything available there), results from the Note Taking Environment, or results from archives (only results in the international standard format Encoded Archival Description) should be displayed to him.
+  
+   .. image:: ./images/search_03.png 
 
-.. _figure-search-facet:
+The same applies to the other filters like f.ex. Artifact (results being a note or a document within the Note Taking Environment), Date, Format, Person etc. Filters can also be applied subsequently in order to narrow search results.
 
-.. figure:: images/xmlfacets_facet_country_Bosnia_and_Herzegovina.png
+Finally, a user can determine whether or not to include the results of the medieval database TRAME or whether or not to limit the search to the current project from where the search was started. This is being done by ticking the check box in the appropriate field. 
 
-The image show the results after selecting *Bosnia and Herzegovina* from the country facet
+   .. image:: ./images/search_04.png 
 
-Click the reset button on the top of the facet panel to return to the start.
+In order to return to the start, a user can click the reset button on top of the Facets panel.
 
-**Viewing a file**
+   .. image:: ./images/search_05.png
 
-Selecting a search result takes you to the corresponding entry, see :ref:`Figure <figure-search-entry>`.
+**Saving the results of a search**
 
-.. _figure-search-entry:
+Generally, the results of a search will be displayed to the user as a list of links (displayed in blue with a check box in front of it). Users are provided with a link to the main repository and, if applicable, a link to the data provider. Beneath each link a snippet from the content can be found, i.e. the beginning of the information provided for the result.
 
-.. figure:: images/xmlfacets_Biblioteka_Gdanska_Polskiej_Akademii_Nauk.png
+Users can choose the results they consider relevant for their search by ticking the check box in front of the result.
 
-The EAD file for *The Gdansk Library of the Polish Academy of Sciences*
+   .. image:: ./images/search_06.png
+ 
+A user can also decide to select all the results displayed on a page, or none of them, by clicking one of the fields displayed below.
 
+   .. image:: ./images/search_07.png
 
-.. index::
-   single: facet	
+After having selected all the results she is interested in, the user can copy them to his clipboard and f.ex. paste them into a note or a .doc-file. 
+
+   .. image:: ./images/search_08.png
+   
+**Viewing a result**
+
+A single search result can be viewed by clicking on the link. Depending on the result, this can be a dbpedia page, a file or a note or document in the Note Taking Environment, or, if applicable, a link to the provider. 
+   
+An example for a result from the German Bundesarchiv; the archival description is stored within the CENDARI repository: 
+
+   .. image:: ./images/search_09.png
 
 
 5. Named Entity Recognition and Disambiguation (NERD)
