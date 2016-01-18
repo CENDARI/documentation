@@ -284,6 +284,7 @@ Both operations will result in the clustering of all related entities in a folde
 **Versioning and Reversion History**
 
 Open a note or a document, next to the save button you will find the :menuselection:`version history` button. Click on this button and you will see the latest versions for this document or note. You can check each of the old versions of these documents by clicking on the links.
+
 Reversion History: the date of each history version of a document or a note is available now. Open a document, click on :menuselection:`Version History` button from the menu bar. The revision history is displayed in a new page. Select an old version, the content of this document version will be opened in the editor. You will notice next to :menuselection:`Document Description` the date (between brackets) when this version was created. The :menuselection:`Revert to this version` link next to :menuselection:`Document's description` allows for reverting the document to the selected history version. Note that revision history also works for notes.
 
 8. Collaboration and Sharing
