@@ -6,7 +6,7 @@ The central CENDARI infrastructure as hosted by UGOE is managed entirely through
 
 .. _figure_infrastructure_layer_model:
 
-.. figure:: images/infrastructure_layer_model_v0_9_3.png
+.. figure:: images/infrastructure_layer_model_v1.png
 
    The CENDARI Infrastructure Layer Model
 
