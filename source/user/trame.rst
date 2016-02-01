@@ -1,14 +1,16 @@
 TRAME
 ======
 
-`TRAME <http://git-trame.fefonlus.it/index.html>`_ (Texts and Manuscript Transmission of the Middle Ages in Europe) is a research infrastructure project for the development and interoperability of web databases about medieval manuscript tradition.
+`TRAME <http://git-trame.fefonlus.it/index.html>`_ (Texts and Manuscript Transmission of the Middle Ages in Europe)
+is a research infrastructure project for the development and interoperability of web databases about medieval manuscript tradition.
 
 .. image:: ./images/TRAME_01.png
 
 1. What is it?
 -----------------
 
-TRAME is a metasearch tool for medieval manuscripts, hosted by the Fondazione Ezio Franceschini and SISMEL. It aims to assist users in finding primary sources for the study of medieval culture.
+TRAME is a metasearch tool for medieval manuscripts, hosted by the Fondazione Ezio Franceschini and SISMEL. 
+It aims to assist users in finding primary sources for the study of medieval culture.
 Originally developed in 2011 to allow a combined search 
 on a group of different Italian repositories and databases,
 it has increasingly widened its scope to become a global

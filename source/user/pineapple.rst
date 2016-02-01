@@ -1,12 +1,12 @@
 PINEAPPLE
-======
+=========
 
 `PINEAPPLE <http://resources.cendari.dariah.eu>`_ is a simple browser for the CENDARI semantic repository.
 
 .. image:: ./images/pineapple_resources.png
 
 1. What is it?
------------------
+--------------
 
 PINEAPPLE provides a browsing interface for three types of data in CENDARI's semantic repository:
 
@@ -15,7 +15,8 @@ PINEAPPLE provides a browsing interface for three types of data in CENDARI's sem
  - Medieval manuscripts  
 
 2. How to use PINEAPPLE
---------------------
+-----------------------
+
 **Resources search**
 
 Supplying a textual query will filter resources by the contents of their plain text field.
