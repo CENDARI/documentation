@@ -3,7 +3,7 @@ CKAN Modifications and Extension
 
 CKAN serves as central repository for all CENDARI content.
 It directly functions as the backend for the :doc:`/developer/litef-conductor/docs/rest`.
-Some modifications to the database have been made.
+Some :ref:`modifications <ckan-db-changes-lbl>` to the database have been made.
 
 .. todo:: Actually provide the specifications of the DB changes. 
 

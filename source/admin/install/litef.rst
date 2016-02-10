@@ -86,7 +86,6 @@ Additionally, Litef requires a configuration file ``/etc/litef/application.conf`
    logger.scala.slick=ERROR
    logger.scala.slick.session=ERROR
 
-
 Litef requires a dedicated CKAN sysadmin, thus after installing CKAN create that sysadmin:
 
 .. code-block:: bash
@@ -97,7 +96,9 @@ Litef requires a dedicated CKAN sysadmin, thus after installing CKAN create that
 
 Add the new sysadmin's API key to ``/etc/litef/application.conf``.
 
-Litef needs modifications to the CKAN dabase.
+.. _ckan-db-changes-lbl:
+
+Litef needs modifications to the CKAN database.
 
 .. code-block:: sql
 
