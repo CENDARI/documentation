@@ -48,6 +48,8 @@ than run
     chown -R www-data cache
     chown -R www-data atom2ckan
 
+Use the web installer to set up AtoM (fails if config exists).
+
 After an upgrade, make sure to upgrade the database and clear the cache
 
 .. code-block:: bash
@@ -60,12 +62,12 @@ If necessary, recreate the Elastic index
 .. code-block:: bash
 
     sudo -u www-data php symfony search:populate
-    
-    
+
+
 Configuration
 -------------
 
-Verify Language and Timezone in ``apps/qubit/config/settings.yml`` 
+Verify Language and Timezone in ``apps/qubit/config/settings.yml``
 and add the database settings to ``config/config.php`` and the ElasticSearch settings to ``config/search.yml``.
 
 Add the Shibboleth mapping to ``apps/qubit/config/app.yml``:
@@ -83,7 +85,7 @@ Add the Shibboleth mapping to ``apps/qubit/config/app.yml``:
 CKAN upload
 -----------
 
-To regularly upload all config files to CKAN, install `atom2ckan <https://github.com/CENDARI/atom2ckan>`_ by cloning from GitHub 
+To regularly upload all config files to CKAN, install `atom2ckan <https://github.com/CENDARI/atom2ckan>`_ by cloning from GitHub
 and filling in the settings to ``complete_atom_to_ckan_config.php``.
 
 Three satellite tables should be provided in the atom database using the following commands:
@@ -91,14 +93,14 @@ Three satellite tables should be provided in the atom database using the followi
 .. code-block:: bash
 
     create table harvester_ead(
-        atom_ead_id int not null, 
+        atom_ead_id int not null,
         atom_ead_slug varchar(255),
         atom_eag_slug varchar(255),
         repository_resource_id varchar(40),
         sync_date datetime,
         primary key (atom_ead_id)
     );
-    
+
 
     create table harvester_eag(
         atom_ead_id int not null,
@@ -115,7 +117,7 @@ Three satellite tables should be provided in the atom database using the followi
 Also there the last table should be populated with one value before which represents the date before CENDARI project was started, like:
 
 .. code-block:: bash
-    
+
     insert into harvester_date (date) values ('2010-01-01 01:01:01');
 
 The following command should be executed by the ``www-data`` user periodically, i.e. via cron

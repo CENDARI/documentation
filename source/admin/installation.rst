@@ -60,12 +60,6 @@ An elasticsearch cluster is set up between the servers within each environment.
 Applications can therefore always access databases and query elasticsearch locally on standard ports.
 
 
-Portal
-------
-
-The CENDARI Portal is made available through `Liferay <https://www.liferay.com>`_. 
-
-
 Back Office
 -----------
 
